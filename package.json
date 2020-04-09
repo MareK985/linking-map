@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "gsap": "^3.2.6",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.0.0",
+    "vue-intersect": "^1.1.6"
   },
   "devDependencies": {
     "eslint-config-prettier": "^6.10.0",
