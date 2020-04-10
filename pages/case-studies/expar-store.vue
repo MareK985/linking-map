@@ -1,5 +1,14 @@
 <template>
     <div>
+      <div class="hero">
+        <figure>
+          <img src="https://unsplash.it/1600/900?image=830" alt="" />
+          <figcaption>
+            <h1>Expar store</h1>
+            <p>Image with CSS clip-path</p>
+          </figcaption>
+        </figure>
+      </div>
       <main>
         <section>
           <div class="cha-header-clip">
@@ -7,6 +16,15 @@
               case study: ExpAR store
             </header>
           </div>
+          <div class="box">
+            <div class="wrapper-box">
+              <h1>This is a heading</h1>
+              <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+              </p>
+            </div>
+          </div>
+          <br/>
+          <br>
           <div class="cha-text mt-2">
             Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
           </div>
@@ -48,36 +66,46 @@
               case study: ExpAR store
             </header>
           </div>
-  <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
-    <h1>Hello World</h1>
-  </div>
+          <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+            <h1>Hello World</h1>
+          </div>
 
-  <div style="overflow:auto">
-    <div class="menu">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-      <a href="#">Link 4</a>
-    </div>
+          <div style="overflow:auto">
+            <div class="menu">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+              <a href="#">Link 4</a>
+            </div>
 
-    <div class="main">
-      <h2>Lorum Ipsum</h2>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-    </div>
+            <div class="main">
+              <h2>Lorum Ipsum</h2>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            </div>
 
-    <div class="right">
-      <h2>About</h2>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-    </div>
-  </div>
+            <div class="right">
+              <h2>About</h2>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+          </div>
 
-  <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
+          <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
         </section>
+        <footer>
+          <div class="shape">
+          <div class="content">
+            ExpAR store ©2020 
+          </div>
+          </div>
+        </footer>
+
+
       </main>
     </div>
 </template>
 
 <script>
+
 
 export default {
   layout: 'case-study'
@@ -113,6 +141,45 @@ body {
     margin: 0;
     font-family: Lato;
 }
+// slanted edge here
+.hero img {
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+
+.hero {
+  color: #fff;
+  position: relative;
+  text-align: center;
+  text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
+  
+  img {
+    width: 100%;
+  }
+
+  figure {
+    width: 100%;
+    margin:0;
+  }
+  
+  figcaption {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 0.5em;
+  }
+}
+
 section {
   width: 80%;
   height: 100vh;  //makes section full height!!!
@@ -140,6 +207,26 @@ section {
 }
 
 .paragraph {
+}
+
+.box {
+  background-color: skyblue;
+  margin-top: 50px;
+  padding: 5% 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
+  
+  -webkit-transform: skewY(-15deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
+}
+
+.box > .wrapper-box {
+  -webkit-transform: skewY(5deg);
+  -moz-transform: skewY(5deg);
+  -ms-transform: skewY(5deg);
+  -o-transform: skewY(5deg);
+  transform: skewY(5deg);
 }
 
 .content {
@@ -242,7 +329,32 @@ section {
   max-width: 700px;
   margin: 0 auto;
 }
-// group transitions//
+
+// FOOTER // 
+.shape {
+  position: relative;
+  width: 100%;
+  height: 290px;
+  background-image: url(https://unsplash.it/1600/900?image=830);
+  background-size: 100% 290px;
+  color: #fff;
+}
+
+footer { 
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.shape:before {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  content: "";
+  background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 50%, transparent 50%);
+}
 
 
 </style>
