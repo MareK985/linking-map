@@ -12,25 +12,34 @@
           </div>
         </section>
         
+        <!-- RESEARCH SECTION -->
         <section class="content" data-theme="dark">
           <div class="cha-header-clip" aria-hidden="true">
             <header class="cha-header">
               case study: ExpAR store
             </header>
           </div>
-          <div class="cha-text mt-2 left">
-            <img src="~/assets/img/path.jpg" width="400px" alt="image" class="image amim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">Line in section 1.10.32.
-            </p>
-            <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
-          </div>
-          <div class="cha-text mt-2 right">
-            <div class="anim" data-delay="1s">
-              <h2>Activity#1: Interviews</h2>
-              <p>T you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
+          <!-- 1st paragraph-->
+          </br>
+          <section class="paragraph">
+            <div class="left">
+              <img src="~/assets/img/path.jpg" width="400px" alt="image" class="image amim" data-delay="0s"/>
+              <p class="anim" data-delay=".5s">Line in section 1.10.32.
               </p>
+              <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
             </div>
-          </div>
+            <div class="right">
+              <div class="anim" data-delay="1s">
+                <h2>Activity#1: Interviews</h2>
+                <p>T you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
+                </p>
+              </div>
+            </div>
+          </section>
+            <!-- END 1st paragraph-->
+          <!-- 2nd paragraph-->
+
+            <!-- END 2nd paragraph-->
         </section>
 
         <section data-theme="green">
@@ -39,15 +48,41 @@
               case study: ExpAR store
             </header>
           </div>
-          <div class="cha-text">
-            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
-          </div>
+  <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
+    <h1>Hello World</h1>
+  </div>
+
+  <div style="overflow:auto">
+    <div class="menu">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+    </div>
+
+    <div class="main">
+      <h2>Lorum Ipsum</h2>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
+
+    <div class="right">
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+    </div>
+  </div>
+
+  <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
         </section>
       </main>
     </div>
 </template>
 
 <script>
+
+export default {
+  layout: 'case-study'
+  // page component definitions
+}
 //Intersection observer API//
  //  const images = document.querySelectorAll('.anim');
 
@@ -74,7 +109,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
 
 body {
-    height: 100vh;
+   // height: 100vh;
     margin: 0;
     font-family: Lato;
 }
@@ -104,15 +139,20 @@ section {
   }
 }
 
+.paragraph {
+}
+
 .content {
-  display: grid;
-  grid-template-columns: 70% auto;
+  //display: grid;
+  //grid-template-columns: 70% auto;
 
     .left {
       position: relative;
       text-align: center;
       display:grid;
+      float: left;
       place-items: center;
+      width: 60%; /* The width is 20%, by default */
 
       p {
         background: white;
@@ -129,6 +169,8 @@ section {
     }
     .image {
       width: 80%;
+      max-width:100%;
+      height:auto;
      // opacity: 0;
     }
     .symbol {
@@ -140,6 +182,8 @@ section {
     .right {
       display: grid;
       place-items: center;
+      float: left;
+      width: 40%; /* The width is 4%, by default */
 
       h2 {
         color: white;
@@ -150,6 +194,12 @@ section {
 
 .anim {
   // opacity: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .left, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
 
 @keyframes anim1 {

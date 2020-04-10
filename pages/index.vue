@@ -54,9 +54,8 @@
           </svg>
 
         </div>
-        
-        <h2>Challenging the status quo</h2>
-        <a href="/case-study-expar" to="/case-study-expar" class="btn">See our projects...</a>
+        <h2>Leading sustainable solutions</h2>
+        <a href="/case-studies/expar-store" to="/case-studies/expar-store" class="btn">OUR PROJECTS...</a>
       </div>
     </section>
     <main>
@@ -93,7 +92,7 @@ body {
     color: white;
     
     /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("~assets/img/hero_1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("~assets/img/team.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -106,7 +105,19 @@ body {
     /* Margins */
     margin-top: 0;
     margin-bottom: 0.5em;
+    }
+
+.hero h2 {
+    /* Text styles */
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+
+    /* Margins */
+    margin-top: 1em;
+    margin-bottom: 1.5em;
 }
+
 .hero .btn {
     /* Positioning and sizing */
     display: block;
@@ -124,7 +135,7 @@ body {
     font-size: 1.5em;
     
     /* Border styles */
-    border: 3px solid white;
+    /* border: 3px solid white; */
     border-radius: 5px;
     
     /* Background styles */
@@ -138,6 +149,7 @@ body {
   transform: translate(-50%, +0%);
   width: 70%
 }
+
 path {
   stroke: #fff;
   fill: #fff;
