@@ -177,7 +177,6 @@ path {
     fill: rgba(255, 255, 255, 1);
     stroke-dashoffset: 0;
 
-
   }
 
 }

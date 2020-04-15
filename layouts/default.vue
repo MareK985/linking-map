@@ -18,7 +18,6 @@
 * {
   padding: 0px;
   margin: 0px;
-  box-sizing: border-box;
 }
 .header {
   width: 100%;

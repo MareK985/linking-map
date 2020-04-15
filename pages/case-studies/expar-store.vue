@@ -2,33 +2,66 @@
     <div>
       <div class="hero">
         <figure>
-          <img src="https://unsplash.it/1600/900?image=830" alt="" />
-          <figcaption>
-            <h1>Expar store</h1>
-            <p>Image with CSS clip-path</p>
+         <img class="hero-image" src="~assets/img/hero-expar.jpg" alt="hero-expar" />          
+         <figcaption>
+           <div class="hero-title">
+            <h1 class="headline">Expar store</h1>
+            <p class="tagline">experience shopping in your unit</p>
+           </div>
           </figcaption>
+          <div class="banner-wrapper">
+            <div class="banner">Platform is specialized for mobile-first multi-unit on-demand shopping from collection of high-quality local product with a great value. 
+            Concepts of ˝shoppable˝ apartment, storytelling and latest AR technologies solution deliveres convenient and almost magical customer 
+            experience in the comfort of their temporary stay where near enough everything is up for sale.</div>
+          </div>
         </figure>
       </div>
       <main>
+        <!-- CHALLENGE SECTION -->
         <section>
           <div class="cha-header-clip">
             <header class="cha-header">
               case study: ExpAR store
             </header>
           </div>
-          <div class="box">
+          <div class="sector-title mt-2">
+            <h2 class="title">Challenge</h2>
+          </div>
+        
+          <div class="cha-text mt-2">
             <div class="wrapper-box">
-              <h1>This is a heading</h1>
-              <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-              </p>
+              <h1>Mission</h1>
+              <p>To provide superior value for the customers (unit owners) for an affordable price, creating a 
+                win-win scenario which will boost the <strong>overall profitability and viability of their business </strong>.</p>
             </div>
           </div>
           <br/>
-          <br>
           <div class="cha-text mt-2">
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            <h1>Background</h1>
+            <p>In the rise of boutique tourist destinations, personalization, bleisure travel customers nowdays seeking unique accomodations which can provide authentic interactions with local culture. For our client specialized in 
+              <strong>short-term rental business</strong> who identified this increasing demand we are developing solution to enhance Cx, Bx and overall value of their service.</p>
+          </div>
+          <br/>
+          <div class="cha-text mt-2">
+              <h1>Business goal</h1>
+              <p> Increase profitability / viability of the business.</p>
+          </div>
+          <br/>
+          <div class="cha-text mt-2">
+            <h3>Success metric</h3>
+            <p>Average Order Value (AOV) increased by <strong>10%</strong>.</p>
+          </div>
+          <br/>
+          <div class="cha-text mt-2">
+              <h1>Timeline</h1>
+              <ul>
+                <li>Within 6 months <strong>MVP testing in 10 units</strong>.
+                </li>
+                <li>Within 12 months <strong>launch of platform</strong> and offering service to other clients.</li>
+              </ul>
           </div>
         </section>
+        <!-- end of CHALLENGE SECTION -->
         
         <!-- RESEARCH SECTION -->
         <section class="content" data-theme="dark">
@@ -89,6 +122,13 @@
             </div>
           </div>
 
+          <div class="box">
+            <div class="wrapper-box">
+              <h1>Mission</h1>
+              <p>To provide superior value for the customers (unit owners) for an affordable price, creating a win-win scenario which will boost the overall profitability and viability of their business</p>
+            </div>
+          </div>
+
           <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">© copyright w3schools.com</div>
         </section>
         <footer>
@@ -140,16 +180,66 @@ body {
    // height: 100vh;
     margin: 0;
     font-family: Lato;
+    text-align: justify;
+}
+
+.hero-title {
+  margin-top: -45%;
+}
+
+.headline {
+    font-size: 9vw;
+  }
+.tagline {
+    font-size: 5vw;
+  }
+
+.sector-title {
+margin-top: 0%;
+
+  .title {
+      color: rgb(125, 115, 160);
+  font-size: 10vw;
+  text-transform: lowercase;
+  letter-spacing: 0.1rem;
+  }
+}
+
+//banner in hero
+.banner {
+  background: rgba(125, 115, 160, 0.7);;
+  margin-top: -60%;
+  position: absolute;
+  line-height: 1.5em;
+  letter-spacing: 0.08em;
+  font-weight: 400;
+  font-size: 2.5vw;
+  padding: 6rem;
+}
+
+@media screen and (max-width: 600px) {
+  .banner {
+    padding: 2em;
+    letter-spacing: 0.09em;
+    font-weight: 300;
+    font-size: 3vw;
+    line-height: 15px;
+  }
+}
+
+.banner-wrapper {
+  margin: 20px;
 }
 // slanted edge here
 .hero img {
-  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 
 .hero {
   color: #fff;
   position: relative;
   text-align: center;
+  height: 100%;
   text-shadow: 0px 0px 1px rgba(0,0,0,0.5);
   
   img {
@@ -168,31 +258,33 @@ body {
     transform: translate(-50%, -50%);
     width: 100%;
   }
-  
-  h1 {
-    font-size: 32px;
-  }
-  
+    
   p {
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 300;
     margin-top: 0.5em;
+    line-height: 120%;
   }
 }
 
+ strong {
+       font-size: 20px;
+       color: #454655;
+
+ }
+
 section {
   width: 80%;
-  height: 100vh;  //makes section full height!!!
   margin: 0 auto;
   position: relative;
   padding: 50px;
 
   &[data-theme="dark"] {
-    background: black;
+    background: rgb(125, 115, 160);;
     color: white;
 
     .cha-header {
-      background: black;
+      background: rgb(125, 115, 160);;
     }
   }
 
@@ -206,15 +298,12 @@ section {
   }
 }
 
-.paragraph {
-}
-
 .box {
   background-color: skyblue;
   margin-top: 50px;
   padding: 5% 20px; /* Added a percentage value for top/bottom padding to keep the wrapper inside of the parent */
   
-  -webkit-transform: skewY(-15deg);
+  -webkit-transform: skewY(-5deg);
   -moz-transform: skewY(-5deg);
   -ms-transform: skewY(-5deg);
   -o-transform: skewY(-5deg);
@@ -310,6 +399,7 @@ section {
   right: 0;
   bottom: 0;
   pointer-events: none;
+  z-index: 20;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
@@ -335,8 +425,7 @@ section {
   position: relative;
   width: 100%;
   height: 290px;
-  background-image: url(https://unsplash.it/1600/900?image=830);
-  background-size: 100% 290px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("~assets/img/hero-expar.jpg");  background-size: 100% 290px;
   color: #fff;
 }
 
@@ -346,6 +435,7 @@ footer {
   align-items: center;
   justify-content: center;
   width: 100%;
+
 }
 
 .shape:before {
