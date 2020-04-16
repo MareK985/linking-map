@@ -10,88 +10,237 @@
            </div>
           </figcaption>
           <div class="banner-wrapper">
-            <div class="banner">Platform is specialized for mobile-first multi-unit on-demand shopping from collection of high-quality local product with a great value. 
-            Concepts of ˝shoppable˝ apartment, storytelling and latest AR technologies solution deliveres convenient and almost magical customer 
-            experience in the comfort of their temporary stay where near enough everything is up for sale.</div>
+            <div class="banner">mobile-first <br/> multi-unit <br/> on-demand <br/>e-commerce platform</div>
           </div>
         </figure>
       </div>
       <main>
-        <!-- CHALLENGE SECTION -->
-        <section>
-          <div class="cha-header-clip">
-            <header class="cha-header">
+      <!-- CHALLENGE SECTION -->
+      <section>
+        <div class="cha-header-clip">
+          <header class="cha-header">
               case study: ExpAR store
-            </header>
-          </div>
-          <div class="sector-title mt-2">
-            <h2 class="title">Challenge</h2>
-          </div>
+          </header>
+        </div>
+        <div class="sector-title mt-2">
+          <h2 class="title" style="color:rgb(125, 115, 160)">Challenge</h2>
+        </div>
         
-          <div class="cha-text mt-2">
-            <div class="wrapper-box">
-              <h1>Mission</h1>
-              <p>To provide superior value for the customers (unit owners) for an affordable price, creating a 
+        <div class="cha-text mt-2">
+          <div class="wrapper-box">
+            <h1>Mission</h1>
+            <p>To provide superior value for the customers (unit owners) for an affordable price, creating a 
                 win-win scenario which will boost the <strong>overall profitability and viability of their business </strong>.</p>
-            </div>
           </div>
-          <br/>
-          <div class="cha-text mt-2">
-            <h1>Background</h1>
-            <p>In the rise of boutique tourist destinations, personalization, bleisure travel customers nowdays seeking unique accomodations which can provide authentic interactions with local culture. For our client specialized in 
-              <strong>short-term rental business</strong> who identified this increasing demand we are developing solution to enhance Cx, Bx and overall value of their service.</p>
-          </div>
-          <br/>
-          <div class="cha-text mt-2">
-              <h1>Business goal</h1>
-              <p> Increase profitability / viability of the business.</p>
-          </div>
-          <br/>
-          <div class="cha-text mt-2">
-            <h3>Success metric</h3>
-            <p>Average Order Value (AOV) increased by <strong>10%</strong>.</p>
-          </div>
-          <br/>
-          <div class="cha-text mt-2">
-              <h1>Timeline</h1>
-              <ul>
-                <li>Within 6 months <strong>MVP testing in 10 units</strong>.
-                </li>
-                <li>Within 12 months <strong>launch of platform</strong> and offering service to other clients.</li>
-              </ul>
-          </div>
-        </section>
-        <!-- end of CHALLENGE SECTION -->
+        </div>
+        <br/>
+        <div class="cha-text mt-2">
+          <h1>Background</h1>
+          <p>In the rise of boutique tourist destinations, personalization, bleisure travel customers nowdays seeking unique accomodations which can provide authentic interactions with local culture. For our client specialized in 
+            <strong>short-term rental business</strong> who identified this increasing demand we are developing solution to enhance Cx, Bx and overall value of their service.</p>
+        </div>
+        <br/>
+        <div class="cha-text mt-2">
+            <h1>Business goal</h1>
+            <p> Increase profitability / viability of the business.</p>
+        </div>
+        <br/>
+        <div class="cha-text mt-2">
+          <h3>Key Success metric</h3>
+          <p>Average Order Value (AOV) increased by <strong>10%</strong>.</p>
+        </div>
+        <br/>
+        <div class="cha-text mt-2">
+            <h1>Timeline</h1>
+            <ul>
+              <li>Within 6 months <strong>MVP testing in 10 units</strong>.
+              </li>
+              <li>Within 12 months <strong>launch of platform</strong> and offering service to other clients.</li>
+            </ul>
+        </div>
+      </section>
+      <!-- end of CHALLENGE SECTION -->
         
-        <!-- RESEARCH SECTION -->
-        <section class="content" data-theme="dark">
-          <div class="cha-header-clip" aria-hidden="true">
-            <header class="cha-header">
+      <!-- RESEARCH SECTION -->
+      <section class="content" data-theme="dark">
+        <div class="cha-header-clip" aria-hidden="true">
+          <header class="cha-header">
               case study: ExpAR store
-            </header>
-          </div>
-          <!-- 1st paragraph-->
-          </br>
-          <section class="paragraph">
-            <div class="left">
-              <img src="~/assets/img/path.jpg" width="400px" alt="image" class="image amim" data-delay="0s"/>
-              <p class="anim" data-delay=".5s">Line in section 1.10.32.
-              </p>
-              <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
+          </header>
+        </div>
+        <div class="sector-title mt-2">
+          <h2 class="title">Research</h2>
+        </div>
+        <div class="main" style="margin-top:20px;" >
+          <h2>Market oportunity</h2>
+          <p>Following the vision of AirBnB <a target="_blank" href="https://www.youtube.com/watch?time_continue=57&v=nMITXMrrVQU&feature=emb_title">»Bélo: The Story of a Symbol of Belonging«</a> and new trends in turism:</p>
+          <ul>
+            <li>Pairing sustainable (responsible) tourism with luxury travel <a href="https://www.redcarnationhotels.com/blog/true-sustainable-luxury" target="_blank">(source)</a></li>
+            <li>Personalized Travel & Bespoke Experiences - a new global luxury trend <a href="https://snamitravel.com/new-global-luxury-trend-personalized-travel-bespoke-experiences/" target="_blank">(source)</a> </li>
+            <li>"Bleisure" is on the rise and it's one of the biggest trends in business travel <a href="https://www.travelpulse.com/news/car-rental-and-rail/bleisure-is-the-biggest-trend-in-business-travel.html" target="_blank">(source)</a></li>
+            <li>Cash free travel <a href="https://www.boutiquecyprusvillas.com/2020-travel-trends-according-to-the-experts/" target="_blank">(source)</a></li>
+            <li>“Ease” become the gold standard by which tech travel innovations will be judged <a href="https://www.boutiquehotelier.com/the-8-biggest-travel-trends-for-2019/" target="_blank">(source)</a></li>
+            <li>Culinary travel has transcended “trend” to become its own niche <a href="https://www.virtuoso.com/articles/virtuoso-communities/Our-Favorite-Vacation-Ideas-for-Food-Lovers#.XkUp22hKiUk" target="_blank">(source)</a> </li>
+            <li>In a post-Internet society, consumers have access to an immense amount of information on the availability, prices, and quality of products. Increased product diversity and information transparency have resulted in more selective and price-sensitive consumers.</li>
+          </ul>
+          <h2>What alternatives are available?</h2>
+            <h3>Shopify (E-commerce platform)</h3>
+            <div class="left-dialog">
+              <p>PROS+ <br/> 
+              <ul>
+                <li>Easy to use (for non-developers)</li>
+                <li>Complete control over your on-line store customization</li>
+                <li>Over 100 modern-looking & responsive shop templates</li>
+                <li>Automatic shipping rates</li>
+                <li>Customer support tools (e.g. live chat)</li>
+                <li>Shopify developer products (build public/private app, embedded app, custom storefronts)</li>
+                <li>New add-ons for more features (e.g. Shocodes - scan & purchase with smartphone)</li>
+                <li>Real product Inventory Management</li>
+                <li>Shipping discount</li>
+                <li>Key Performance Metrics available</li>
+              </ul></p> 
             </div>
-            <div class="right">
-              <div class="anim" data-delay="1s">
-                <h2>Activity#1: Interviews</h2>
-                <p>T you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
-                </p>
-              </div>
+            <div class="right-dialog">
+              <p>CONS- <br/> 
+              <ul>
+                <li>Limitation on store locations (track inventory on <strong>up to 8 locations</strong>)</li>
+                <li>Subscription fees for most of add-on /features</li>
+                <li>Transaction fees (0,5-2%) unless using Shopify payments (not available in most EU countries)</li>
+                <li>Checkout process can not be customized</li>
+                <li>SEO shortcomings</li>
+                <li>No refunds</li>
+              </ul></p> 
             </div>
-          </section>
-            <!-- END 1st paragraph-->
-          <!-- 2nd paragraph-->
-
-            <!-- END 2nd paragraph-->
+            <p>The main two reasons that Shopify stores fail is that they are <strong>not able to drive traffic to their website</strong> and they do <strong>not offer unique, high quality products with a branded experience.</strong> <a href="https://www.quora.com/Why-do-most-Shopify-stores-fail-1" target="_blank">(source)</a></a> </p>
+            <h3>AirBnb Experience </h3>
+            <div class="left-dialog">
+              <p>PROS+ <br/> 
+              <ul>
+                <li>Recommendations based on your booking or search</li>
+                <li>Good follow-up and cross-selling strategy</li>
+                <li>Include local people to offer personalized experience.</li>
+              </ul></p> 
+            </div>
+            <div class="right-dialog">
+              <p>CONS- <br/> 
+              <ul>
+                <li>On spot seling not possible.</li>
+              </ul></p> 
+            </div>
+        </div>
+        </br>
+        <!-- 1st paragraph-->
+        </br>
+        <h2>Who are the guests?</h2>
         </section>
+         <!-- END 2nd paragraph-->
+      </section>
+      <!-- END RESEARCH section-->
+
+      <!-- DESING SECTION -->
+      <section class="content">
+        <div class="cha-header-clip" aria-hidden="true">
+          <header class="cha-header">
+              case study: ExpAR store
+          </header>
+        </div>
+          <div class="sector-title mt-2">
+            <h2 class="title" style="color:rgb(125, 115, 160)">Design</h2>
+          </div>
+        <div class="main" style="margin-top:20px;" >
+        </div>
+        </br>
+        <!-- 1st paragraph-->
+        </br>
+        <h2>Product vision</h2>
+        <section class="paragraph">
+          <div class="left">
+            <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image amim" data-delay="0s"/>
+            <p class="anim" data-delay=".5s">Creating personas
+            </p>
+            <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
+          </div>
+          <div class="right">
+            <div class="anim" data-delay="1s">
+              <h2>Activity#1: Creating personas</h2>
+              <p>In order to really innovate we need to think bewond categories. Futere business problems don't fall neathly within the boundaries that were created to solve past problems. Nowdays the most common need is feeling of belonging which people can get when having an authentic travel experience, have possibility to live like a local and blend into community. When arriving to the unit they are looking for empathy, understanding and honest two-way communication</p>
+            </div>
+          </div>
+          <hr style="margin-top:300px;"/>
+        </section>
+        <!-- END 1st paragraph-->
+         <!-- 2nd paragraph-->
+        <section class="paragraph">
+          <div class="left">
+            <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image amim" data-delay="0s"/>
+            <p class="anim" data-delay=".5s">Prototyping
+            </p>
+            <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
+          </div>
+          <div class="right">
+            <div class="anim" data-delay="1s">
+              <h2>Activity#1: Interviews</h2>
+              <p>T you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
+              </p>
+            </div>
+          </div>
+          <hr style="margin-top:300px;"/>
+        </section>
+      </section>
+      <!-- END DESIGN section-->
+
+      <!-- TESTING SECTION -->
+      <section class="content" data-theme="dark">
+        <div class="cha-header-clip" aria-hidden="true">
+          <header class="cha-header">
+              case study: ExpAR store
+          </header>
+        </div>
+          <div class="sector-title mt-2">
+            <h2 class="title">Testing</h2>
+          </div>
+        <div class="main" style="margin-top:20px;" >
+        </div>
+        </br>
+        <!-- 1st paragraph-->
+        </br>
+        <h2>Product vision</h2>
+        <section class="paragraph">
+          <div class="left">
+            <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image amim" data-delay="0s"/>
+            <p class="anim" data-delay=".5s">Creating personas
+            </p>
+            <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
+          </div>
+          <div class="right">
+            <div class="anim" data-delay="1s">
+              <h2>Activity#1: Creating personas</h2>
+              <p>In order to really innovate we need to think bewond categories. Futere business problems don't fall neathly within the boundaries that were created to solve past problems. Nowdays the most common need is feeling of belonging which people can get when having an authentic travel experience, have possibility to live like a local and blend into community. When arriving to the unit they are looking for empathy, understanding and honest two-way communication</p>
+            </div>
+          </div>
+          <hr style="margin-top:300px;"/>
+        </section>
+        <!-- END 1st paragraph-->
+         <!-- 2nd paragraph-->
+        <section class="paragraph">
+          <div class="left">
+            <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image amim" data-delay="0s"/>
+            <p class="anim" data-delay=".5s">Prototyping
+            </p>
+            <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
+          </div>
+          <div class="right">
+            <div class="anim" data-delay="1s">
+              <h2>Activity#1: Interviews</h2>
+              <p>T you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
+              </p>
+            </div>
+          </div>
+          <hr style="margin-top:300px;"/>
+        </section>
+      </section>
+      <!-- END DESIGN section-->
+
 
         <section data-theme="green">
           <div class="cha-header-clip" aria-hidden="true">
@@ -99,8 +248,11 @@
               case study: ExpAR store
             </header>
           </div>
-          <div style="background-color:#e5e5e5;padding:15px;text-align:center;">
-            <h1>Hello World</h1>
+          <div style="background-color:#e5e5e5;padding:5px;text-align:justify;">
+            <h1>Product Vision</h1>
+              <div>
+              Platform is specialized for mobile-first multi-unit on-demand shopping from collection of high-quality local product with a great value. Concepts of ˝shoppable˝ apartment, storytelling and latest AR technologies solution deliveres convenient and almost magical customer experience in the comfort of their temporary stay where near enough everything is up for sale.</div>
+
           </div>
 
           <div style="overflow:auto">
@@ -148,7 +300,8 @@
 
 
 export default {
-  layout: 'case-study'
+  layout: 'case-study',
+
   // page component definitions
 }
 //Intersection observer API//
@@ -184,7 +337,7 @@ body {
 }
 
 .hero-title {
-  margin-top: -45%;
+  margin-top: -25%;
 }
 
 .headline {
@@ -195,10 +348,9 @@ body {
   }
 
 .sector-title {
-margin-top: 0%;
+margin-top: -8%;
 
   .title {
-      color: rgb(125, 115, 160);
   font-size: 10vw;
   text-transform: lowercase;
   letter-spacing: 0.1rem;
@@ -208,18 +360,19 @@ margin-top: 0%;
 //banner in hero
 .banner {
   background: rgba(125, 115, 160, 0.7);;
-  margin-top: -60%;
+  margin-top: -40%;
   position: absolute;
   line-height: 1.5em;
+  text-align: right;
   letter-spacing: 0.08em;
   font-weight: 400;
   font-size: 2.5vw;
-  padding: 6rem;
+  padding: 3rem;
 }
 
 @media screen and (max-width: 600px) {
   .banner {
-    padding: 2em;
+    padding: 0.5em;
     letter-spacing: 0.09em;
     font-weight: 300;
     font-size: 3vw;
@@ -319,6 +472,7 @@ section {
 }
 
 .content {
+ // height: 100vh;
   //display: grid;
   //grid-template-columns: 70% auto;
 
