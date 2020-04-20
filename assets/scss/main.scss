@@ -10,13 +10,13 @@
 $primary: hsl(242, 100%, 76%);
 $primary-invert: findColorInvert($primary);
 
-$info: hsl(337, 55%, 58%);
+$info: rgb(207, 89, 134);
 $info-invert: findColorInvert($info);
 
 $light: hsl(275, 20%, 83%);
 $light-invert: findColorInvert($light);
 
-$dark: hsl(0, 0%, 15%);
+$dark: #262626;
 $dark-invert: findColorInvert($dark);
 
 $link: hsl(242, 100%, 76%);
