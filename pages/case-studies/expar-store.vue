@@ -233,7 +233,7 @@
           <div class="right">
             <div class="anim" data-delay="1s">
               <h2 style="color: #262626;">#1 Sketching</h2>
-              <p>In order to really innovate we need to think bewond categories and personas. Future business problems don't fall neathly within the boundaries that were created to solve past problems. Nowdays the most common need is feeling of belonging which people can get when having an authentic travel experience, have possibility to live like a local and blend into community. When arriving to the unit they are looking for empathy, understanding and honest two-way communication</p>
+              <p>In order to really innovate we need to think bewond categories and personas. Future business problems don't fall neathly within the boundaries that were created to solve past problems. User reasearch showed that the most common need is feeling of belonging which people can get when having an authentic travel experience, have possibility to live like a local and blend into community. When arriving to the unit they are looking for empathy, understanding and honest two-way communication</p>
             </div>
           </div>
           <hr style="margin-top:300px;"/>
@@ -250,8 +250,14 @@
           <div class="right">
             <div class="anim" data-delay="1s">
               <h2 style="color: #262626;">#2 Prototyping</h2>
-              <p>T you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc
-              </p>
+              <p>Goal was to test the concept as soon as possible. So we deside to make a minimalistic wine shelf and place it in one of the apartments:
+                So we: </p>             
+              <ul>
+                <li>Check the ideas on pinterest</li>
+                <li>Use 3D modeling softwere to design the components for the prototype. </li>
+                <li>Use laser carwing machine to make the components </li>
+                <li>Assemble it in the unit and fill it with selected wines.</li>
+              </ul>>
             </div>
           </div>
           <hr style="margin-top:300px;"/>
@@ -267,21 +273,25 @@
           </div>
           <div class="right">
             <div class="anim" data-delay="1s">
-              <h2 style="color: #262626;">#3 PoC Testing</h2>
-              <p>Goals
-•	Prove the need for:
-o	authentic travel experience, possibility to live like a local, blending into community.
-o	extra services
-•	Test the concept
-o	Platform that will allow guests on-demand shopping from the collection of high-quality local products with great value (price-performance) in the comfort of their temporary stay.
-•	Test the Value proposition
-o	»Try what local would / Best from Slovenia«
-Questions needed to be answered
-•	How important is it for a guest to have a sense of authentic travel experience?
-•	How important is it for a guest to have additional services during their temporary stay in rented appartment?
-•	Would a guest appreciate service of providing HQ, local confirmed, great value products in their appartment?ž
-•	What are the constraints, additional needs that needs to be solved?
-</p>
+              <h2 style="color: #262626;">#3 Proof of Concept Testing</h2>
+              <p>Goals</p>
+              <p>Prove the need for:</p>
+              <ul>
+                <li>authentic travel experience, possibility to live like a local, blending into community.</li>
+                <li>extra services</li>
+              </ul>
+              <p>Test the concept:</p>
+              <ul>
+                <li>Service that will allow guests on-demand shopping from the collection of high-quality local products with great value (price-performance) in the comfort of their temporary stay.</li>
+                <li>»Try what local would / Best from Slovenia«</li>
+              </ul>
+              <p>Questions needed to be answered:</p>
+              <ul>
+                <li>How important is it for a guest to have a sense of authentic travel experience?</li>
+                <li>How important is it for a guest to have additional services during their temporary stay in rented appartment?</li>
+                <li>Would a guest appreciate service of providing HQ, local confirmed, great value products in their appartment?</li>
+                <li>What are the constraints, additional needs that needs to be solved?</li>
+              </ul>
             </div>
           </div>
           <hr style="margin-top:300px;"/>
@@ -311,19 +321,21 @@ Questions needed to be answered
          <!-- 5th paragraph-->
         <section class="paragraph">
           <div class="left">
-            <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">User-flow & Sitemap & Class diagram
+            <img src="~/assets/img/wireframe_purchase-expar.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
+            <p class="anim" data-delay=".5s">User-flow & CJM & Sitemap & Class diagram
             </p>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
             <div class="anim" data-delay="1s">
-              <h2 style="color: #262626;">#5 Informational Architecture</h2>
+              <h2 style="color: #262626;">#5 UX design</h2>
                <ul>
-                <li>User-flow - list all the functionalities </li>
-                <li>Low fidelity wireframe - test the usability </li>
-                <li>Design Informational Architecture - sitemap and class diagram</li>
+                <li>User-flow</a></li>
+                <li>Customer Journey Map (CJM)</li>
+                <li>Low fidelity wireframe</li>
+                <li>Informational Architecture - sitemap and class diagram</li>
               </ul>
+              <SlideshowCarouselUxDesign/>
             </div>
           </div>
           <hr style="margin-top:300px;"/>
@@ -362,7 +374,7 @@ Questions needed to be answered
             <div class="anim" data-delay="1s">
               <h2 style="color: #262626;">#7 Wireframing</h2>
                <ul>
-                <li>make fully clickable high fidelity wireframe - test the functionality</li>
+                <li>make fully clickable high fidelity wireframe with micro interactions and animations - test the functionality</li>
               </ul>
             </div>
           </div>
@@ -458,9 +470,14 @@ Questions needed to be answered
 
 <script>
 
+import SlideshowCarouselUxDesign from '~/components/SlideshowCarouselUxDesign.vue'
+
 
 export default {
   layout: 'case-study',
+  components: {
+    SlideshowCarouselUxDesign
+  }
 
   // page component definitions
 }
