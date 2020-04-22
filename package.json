@@ -11,8 +11,10 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@glidejs/glide": "^3.4.1",
     "gsap": "^3.2.6",
     "nuxt": "^2.0.0",
+    "vue-concise-slider": "^3.4.4",
     "vue-intersect": "^1.1.6"
   },
   "devDependencies": {

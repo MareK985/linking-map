@@ -320,10 +320,8 @@
          <!-- END 4zh paragraph-->
          <!-- 5th paragraph-->
         <section class="paragraph">
-          <div class="left">
-            <img src="~/assets/img/wireframe_purchase-expar.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">User-flow & CJM & Sitemap & Class diagram
-            </p>
+          <div class="left" style="margin-top:-3%; margin-bottom:-3%">
+            <SlideshowCarouselUxDesign style="margin-top:-11.5%;"/>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
@@ -335,7 +333,6 @@
                 <li>Low fidelity wireframe</li>
                 <li>Informational Architecture - sitemap and class diagram</li>
               </ul>
-              <SlideshowCarouselUxDesign/>
             </div>
           </div>
           <hr style="margin-top:300px;"/>
@@ -416,7 +413,7 @@
             <div class="anim" data-delay="1s">
               <h2 style="color: #262626;">#9 Development</h2>
               <ul>
-                <li>Front-end JS framework: Vue.js / Vue CLI project</li>
+                <li>Front-end progressive JavaScript framework: Vue.js / Vue CLI project</li>
                 <li>UI libraries used: Bootstrap, Vuetify</li>
               </ul>
             </div>
@@ -424,8 +421,7 @@
           <hr style="margin-top:300px;"/>
         </section>
          <!-- END 9th paragraph-->
-
-
+        
       </section>
       <!-- END DESIGN section-->
 
