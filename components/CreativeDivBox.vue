@@ -7,7 +7,6 @@
             <h2 style="margin-bottom:0; font-size: 2.5em;">Leading sustainable solutions</h2>
             <a href="/case-studies/expar-store" to="/case-studies/expar-store">OUR PROJECTS...</a>
         </div>
-
     </div>
 </template>
 

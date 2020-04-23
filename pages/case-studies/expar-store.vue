@@ -147,52 +147,55 @@
             <img src="~/assets/img/personas.jpg" width="500px" alt="image" class="image anim" data-delay="0s"/>
           </div>
         <h2>Who are the stakeholders? Interviews with stakeholders</h2>
+        
+    
         <div style="overflow-x:auto;">
-  <table>
-    <tr>
-      <th>User</th>
-      <th>Pain/need</th>
-      <th>Requirement </th>
-      <th>Solution</th>
-      <th>Key KPIs</th>
-    </tr>
-    <tr>
-      <td>Guest</td>
-      <td>Sense of belonging --> trust --> community</td>
-      <td>Share stories / Create memories / Interact with local culture / Local experience</td>
-      <td>Apartment store + e-commerce / Real -show room of carefully selected local products and expericences. / Product storytelling/ Deliver-to-your-friend option</td>
-      <td>NPS/CSAT</td>
-    </tr>
-    <tr>
-      <td>Guest</td>
-      <td>Lack of time</td>
-      <td>On demand / on spot purchase</td>
-      <td>Easy, few step purchase (scan-to buy) / Deliver-to-your-home option.</td>
-      <td>Delivery on time Rate</td>
-    </tr>
-    <tr>
-      <td>Clients</td>
-      <td>Increase profit (added values) of their products / services</td>
-      <td>↑ Cx ↑ Bx ↑ Ratings ↑ Recurring rate (loyalty)</td>
-      <td>Platform for Cross & upselling during and after custumer temporary stay</td>
-      <td>Revenue Growth Rate / MRR & ARR / NPS / CSAT / Unit Performance</td>
-    </tr>
-    <tr>
-      <td>Supplier</td>
-      <td>↑ profit (added values) of their products / services</td>
-      <td>↑ Revenue / ↑ Brand recognition</td>
-      <td>New innovative sales channel</td>
-      <td>Average Profit Margin / STR / Revenue Growth Rate / Product Performance / MRR & ARR</td>
-    </tr>
-    <tr>
-      <td>Operator</td>
-      <td>Profitable operation</td>
-      <td>Designed to go global / Real-time performance metrics (sales analytics, customer success strategy)</td>
-      <td>/ </td>
-      <td>FRC, NPS, CSAT, CES, DAU & MAU, ACR, AOV, Average Profit Margin, CRR & CCR, MRR & ARR, CAR, LTV</td>
-    </tr>
-  </table>
-</div>
+
+      <table>
+        <tr>
+          <th>User</th>
+          <th>Pain/need</th>
+          <th>Requirement </th>
+          <th>Solution</th>
+          <th>Key KPIs</th>
+        </tr>
+        <tr>
+          <td>Guest</td>
+          <td>Sense of belonging --> trust --> community</td>
+          <td>Share stories / Create memories / Interact with local culture / Local experience</td>
+          <td>Apartment store + e-commerce / Real -show room of carefully selected local products and expericences. / Product storytelling/ Deliver-to-your-friend option</td>
+          <td>NPS/CSAT</td>
+        </tr>
+        <tr>
+          <td>Guest</td>
+          <td>Lack of time</td>
+          <td>On demand / on spot purchase</td>
+          <td>Easy, few step purchase (scan-to buy) / Deliver-to-your-home option.</td>
+          <td>Delivery on time Rate</td>
+        </tr>
+        <tr>
+          <td>Clients</td>
+          <td>Increase profit (added values) of their products / services</td>
+          <td>↑ Cx ↑ Bx ↑ Ratings ↑ Recurring rate (loyalty)</td>
+          <td>Platform for Cross & upselling during and after custumer temporary stay</td>
+          <td>Revenue Growth Rate / MRR & ARR / NPS / CSAT / Unit Performance</td>
+        </tr>
+        <tr>
+          <td>Supplier</td>
+          <td>↑ profit (added values) of their products / services</td>
+          <td>↑ Revenue / ↑ Brand recognition</td>
+          <td>New innovative sales channel</td>
+          <td>Average Profit Margin / STR / Revenue Growth Rate / Product Performance / MRR & ARR</td>
+        </tr>
+        <tr>
+          <td>Operator</td>
+          <td>Profitable operation</td>
+          <td>Designed to go global / Real-time performance metrics (sales analytics, customer success strategy)</td>
+          <td>/ </td>
+          <td>FRC, NPS, CSAT, CES, DAU & MAU, ACR, AOV, Average Profit Margin, CRR & CCR, MRR & ARR, CAR, LTV</td>
+        </tr>
+      </table>
+    </div>
 
 
         </section>
@@ -451,6 +454,7 @@
       <!-- END TESTING section-->
 
 
+
         <footer>
           <div class="shape">
           <div class="content">
@@ -458,6 +462,7 @@
           </div>
           </div>
         </footer>
+
 
 
       </main>

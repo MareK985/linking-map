@@ -60,8 +60,9 @@
       </div>
     </section>
     <section class="intro">
-      <h1>Our service</h1>
-
+      <h1 class="title">Our service</h1>
+      <br>
+      <OnionDiagram/>
     </section>
   </div>
 </template>
@@ -69,10 +70,13 @@
 <script>
 
 import CreativeDivBox from '~/components/CreativeDivBox.vue'
+import OnionDiagram from '~/components/OnionDiagram.vue'
+
 
 export default {
   components: {
-    CreativeDivBox
+    CreativeDivBox,
+    OnionDiagram
   }
 }
 
@@ -127,31 +131,21 @@ body {
     margin-top: 1em;
     margin-bottom: 1.5em;
 }
-
-.hero .btn {
-    /* Positioning and sizing */
-    display: block;
-    width: 200px;
-    
-    /* Padding and margins */
-    padding: 1em;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    /* Text styles */
-    color: white;
-    text-decoration: none;
-    font-size: 1.5em;
-    
-    /* Border styles */
-    /* border: 3px solid white; */
-    border-radius: 5px;
-    
-    /* Background styles */
-    background-color: rgba(125, 207, 182, 0.8);
+.title {
+  font-size: 12vh;
+  color:#262626;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1em;
+  letter-spacing: 0.03em;
 }
-
+@media screen and (max-width: 800px) {
+.title {
+  font-size: 7vh;
+  margin-top: 1em;
+  letter-spacing: 0.02em;
+}
+}
 .wrapper {
   position: absolute;
   top: 25%;
