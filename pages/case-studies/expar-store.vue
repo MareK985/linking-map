@@ -46,12 +46,14 @@
         <br/>
         <div class="cha-text mt-2">
             <h1>Business goal</h1>
-            <p> Increase profitability / viability of the business.</p>
-        </div>
-        <br/>
-        <div class="cha-text mt-2">
-          <h2>Key Success metric</h2>
-          <p>Average Order Value (AOV) increased by <strong>10%</strong>.</p>
+            <div class="card-container">
+              <div class="okr">
+                <FlipCardOKR1/>
+              </div>
+              <div class="okr">
+                <FlipCardOKR2/>
+              </div>
+            </div>
         </div>
         <br/>
         <div class="cha-text mt-2">
@@ -147,8 +149,9 @@
             <img src="~/assets/img/personas.jpg" width="500px" alt="image" class="image anim" data-delay="0s"/>
           </div>
         <h2>Who are the stakeholders? Interviews with stakeholders</h2>
-        
-    
+          <div>
+            <img src="~/assets/img/stakeholder_map.jpg" width="500px" alt="image" class="image anim" data-delay="0s"/>
+          </div>
         <div style="overflow-x:auto;">
 
       <table>
@@ -203,7 +206,7 @@
       </section>
       <!-- END RESEARCH section-->
 
-      <!-- DESING SECTION -->
+      <!-- DESIGN SECTION -->
       <section class="content">
         <div class="cha-header-clip" aria-hidden="true">
           <header class="cha-header">
@@ -266,7 +269,31 @@
           <hr style="margin-top:300px;"/>
         </section>
          <!-- END 2nd paragraph-->
-        <!-- 3rd paragraph-->
+         <!-- 3rd paragraph-->
+        <section class="paragraph">
+          <div class="left">
+            <img src="~/assets/img/cgp_expar.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
+            <p class="anim" data-delay=".5s">brand desing
+            </p>
+            <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
+          </div>
+          <div class="right">
+            <div class="anim" data-delay="1s">
+              <h2 style="color: #262626;">#3 Brand Identity Design</h2>
+              <p>Goal was design a visual elements that will represent the product vision in a clean and simple way </p>             
+              <ul>
+                <li>Name: </li>
+                <li>Logo </li>
+                <li>Message </li>
+                <li>Color:</li>
+              </ul>>
+            </div>
+          </div>
+          <hr style="margin-top:300px;"/>
+        </section>
+         <!-- END 3rd paragraph-->
+
+        <!-- 4th paragraph-->
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/survery-PoC-expar.gif" width="400px" alt="image" class="image anim" data-delay="0s"/>
@@ -276,7 +303,7 @@
           </div>
           <div class="right">
             <div class="anim" data-delay="1s">
-              <h2 style="color: #262626;">#3 Proof of Concept Testing</h2>
+              <h2 style="color: #262626;">#4 Proof of Concept Testing</h2>
               <p>Goals</p>
               <p>Prove the need for:</p>
               <ul>
@@ -299,8 +326,8 @@
           </div>
           <hr style="margin-top:300px;"/>
         </section>
-         <!-- END 3d paragraph-->
-         <!-- 4th paragraph-->
+         <!-- END 4th paragraph-->
+         <!-- 5th paragraph-->
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/creating_value_expar.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
@@ -310,7 +337,7 @@
           </div>
           <div class="right">
             <div class="anim" data-delay="1s">
-              <h2 style="color: #262626;">#4 Creating value for each stakeholder</h2>
+              <h2 style="color: #262626;">#5 Creating value for each stakeholder</h2>
               <ul>
                 <li>Project relationships and the Stakeholder Circle - Prioritize and visualize the key stakeholders, mapping their expectations</li>
                 <li>Business modelling - Value proposition canvas for each stakeholder / Business model canvas</li>
@@ -320,8 +347,8 @@
           </div>
           <hr style="margin-top:300px;"/>
         </section>
-         <!-- END 4zh paragraph-->
-         <!-- 5th paragraph-->
+         <!-- END 5th paragraph-->
+         <!-- 6th paragraph-->
         <section class="paragraph">
           <div class="left" style="margin-top:-3%; margin-bottom:-3%">
             <SlideshowCarouselUxDesign style="margin-top:-11.5%;"/>
@@ -329,7 +356,7 @@
           </div>
           <div class="right">
             <div class="anim" data-delay="1s">
-              <h2 style="color: #262626;">#5 UX design</h2>
+              <h2 style="color: #262626;">#6 UX design</h2>
                <ul>
                 <li>User-flow</a></li>
                 <li>Customer Journey Map (CJM)</li>
@@ -340,29 +367,27 @@
           </div>
           <hr style="margin-top:300px;"/>
         </section>
-         <!-- END 5th paragraph-->
-         <!-- 6th paragraph-->
+         <!-- END 6th paragraph-->
+         <!-- 7th paragraph-->
         <section class="paragraph">
           <div class="left">
-            <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">UI library
+            <img src="~/assets/img/UI-design_system.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
+            <p class="anim" data-delay=".5s">Design system
             </p>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
             <div class="anim" data-delay="1s">
-              <h2 style="color: #262626;">#6 UI design</h2>
+              <h2 style="color: #262626;">#7 UI design</h2>
                <ul>
-                <li>Color pallete - pshchology </li>
-                <li>Typography </li>
-                <li>Icons</li>
+                <li>UI Design system </li>
               </ul>
             </div>
           </div>
           <hr style="margin-top:300px;"/>
         </section>
-         <!-- END 6th paragraph-->
-         <!-- 7th paragraph-->
+         <!-- END 7th paragraph-->
+         <!-- 8th paragraph-->
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
@@ -372,16 +397,16 @@
           </div>
           <div class="right">
             <div class="anim" data-delay="1s">
-              <h2 style="color: #262626;">#7 Wireframing</h2>
+              <h2 style="color: #262626;">#8 Wireframing</h2>
                <ul>
-                <li>make fully clickable high fidelity wireframe with micro interactions and animations - test the functionality</li>
+                <li>Fully clickable high fidelity wireframe with micro interactions and animations - test the functionality</li>
               </ul>
             </div>
           </div>
           <hr style="margin-top:300px;"/>
         </section>
-        <!-- END 7th paragraph-->
-        <!-- 8th paragraph-->
+        <!-- END 8th paragraph-->
+        <!-- 9th paragraph-->
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
@@ -391,7 +416,7 @@
           </div>
           <div class="right">
             <div class="anim" data-delay="1s">
-              <h2 style="color: #262626;">#8 Project planning</h2>
+              <h2 style="color: #262626;">#9 Project planning</h2>
               <p>Project is being developed under principles of agile softwere development.</p>
               <ul>
                 <li>Make a digital project canvas for client</li>
@@ -403,8 +428,8 @@
           </div>
           <hr style="margin-top:300px;"/>
         </section>
-         <!-- END 8th paragraph-->
-         <!-- 9th paragraph-->
+         <!-- END 9th paragraph-->
+         <!-- 10th paragraph-->
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
@@ -414,7 +439,7 @@
           </div>
           <div class="right">
             <div class="anim" data-delay="1s">
-              <h2 style="color: #262626;">#9 Development</h2>
+              <h2 style="color: #262626;">#10 Development</h2>
               <ul>
                 <li>Front-end progressive JavaScript framework: Vue.js / Vue CLI project</li>
                 <li>UI libraries used: Bootstrap, Vuetify</li>
@@ -423,7 +448,7 @@
           </div>
           <hr style="margin-top:300px;"/>
         </section>
-         <!-- END 9th paragraph-->
+         <!-- END 10th paragraph-->
         
       </section>
       <!-- END DESIGN section-->
@@ -445,7 +470,8 @@
         </br>
         <div class="cha-text mt-2">
           <div class="wrapper-box">
-            <h1>Test Report</h1>
+            <h1>MVP testing</h1>
+            <h2>Test Report results</h2>
             <p>Platform is specialized for mobile-first multi-unit on-demand shopping from a collection of high-quality local products with a great value (price-performace, choice from an local expert). Employing concept of a »shoppable« apartment, storytelling and latest AR technologies solution deliveres convenient and almost magical customer experience in the comfort of their temporary stay where near enough everything can be up for sale. </p>
           </div>
         </div>
@@ -472,12 +498,20 @@
 <script>
 
 import SlideshowCarouselUxDesign from '~/components/SlideshowCarouselUxDesign.vue'
+import SlideshowCarouselUIDesign from '~/components/SlideshowCarouselUI_Design.vue'
+import FlipCardOKR1 from '~/components/FlipCardOKR1.vue'
+import FlipCardOKR2 from '~/components/FlipCardOKR2.vue'
+
+
 
 
 export default {
   layout: 'case-study',
   components: {
-    SlideshowCarouselUxDesign
+    SlideshowCarouselUxDesign,
+    SlideshowCarouselUIDesign,
+    FlipCardOKR1,
+    FlipCardOKR2
   }
 
   // page component definitions
@@ -537,6 +571,29 @@ margin-top: -8%;
   letter-spacing: 0.1rem;
   }
 }
+.card-container{
+  width: 100%;
+  height: auto;
+  /*add flexbox style */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+
+}
+.okr {
+  width: 40%;
+  height: 400px;
+  box-sizing: border-box;
+}
+  /*add responsive media */
+  @media screen and (max-width: 800px) {
+    .okr {
+      width: 100%;
+      font-size: 0.9em;
+
+    }
+  }
 
 //banner in hero
 .banner {
