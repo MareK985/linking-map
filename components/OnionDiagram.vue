@@ -1,31 +1,26 @@
 <template>
     <div class="diagram">
-        <div class="square1">
+        <div class="square1 boarder-line">
             <div class="content">
                 <h2 class="title-square" style="top: -23vh;">Bx</h2>
-                <p>dsokdsmd</p>  
 
-                <div class="square2a">
+                <div class="square2a boarder-line">
                     <div class="content">
                     <h2 class="title-square" style="left: 2vh;">Cx</h2>
-                    <p>dksjskjdsoi</p>
                     </div>
-                <div class="square2b">
+                <div class="square2b boarder-line">
                     <div class="content">
                     <h2 class="title-square" style="left: 6vh;">Ex</h2>
-                    <p>dksjskjdsoi</p>
                     </div>
 
-                    <div class="square3">
+                    <div class="square3 boarder-line">
                         <div class="content">
                         <h2 class="title-square" style="top: -10vh;">Ux</h2>
-                        <p>dsokdsmd</p>
                         </div>
 
-                        <div class="square4">
+                        <div class="square4 boarder-line">
                             <div class="content">
                             <h2 class="title-square">UI</h2>
-                            <p>dsokdsmd</p>
                             </div>
                         </div>
 
@@ -53,55 +48,54 @@
       overflow-x: auto;
       overflow-y: hidden;
     }
+.boarder-line {
+    border: 6px solid rgb(125, 207, 182);
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+
+}
 .square1 {
-    width: 80%;
+    width: 60%;
     height: 60vh;
     margin: auto;
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(125, 207, 182);
     clear:both;
-    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     z-index: 99;
     position: absolute; 
     left:0;
     right: 0;
     top: 0;
-    bottom: 10px;   
+    bottom: 30px;   
 }
 .square2a {
-    width: 50%;
+    width: 45%;
     height: 45vh;
-    margin: auto;
+    margin-left: 10vh;
+    margin-top: 10vh;
     padding: 10px;
     display: flex;
-    border: 1px solid rgb(125, 207, 182);
-    clear:both;
-    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     z-index: 100;
     position:absolute; 
-    left: -10vh;
+    left: 0;
     right: 0;
     top: 0;
-    bottom:-10vh; 
+    bottom: 0; 
 }
 .square2b {
-    width: 60%;
-    height: 40vh;
-    margin: auto;
+    width: 70%;
+    height: 43vh;
+    margin-left: 40vh;
+    margin-top: -3vh;
     padding: 10px;
     display: flex;
-    border: 1px solid rgb(125, 207, 182);
-    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     z-index: 100;
     position:absolute; 
-    left: 10vw;
-    right: -40vh;
+    left: 0vw;
     top: 0;
-    float: right;
-    bottom: 5vh; 
+    right: -50vh;
+    bottom: 0vh; 
 }
 .square3 {
     width: 150%;
@@ -111,9 +105,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(125, 207, 182);
     clear:both;
-    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     z-index: 101;
     position:absolute;                  
     left: -30vh;
@@ -130,9 +122,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(125, 207, 182);
     clear:both;
-    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
     z-index: 101;
     position:absolute;                  
     bottom:10px; 
@@ -184,8 +174,38 @@
 
 @media (max-width: 680px) {
     .content {
-        font-size: 0.8em;
+        font-size: 0.9rem;
         padding: 20px 30px;
     }
+    .square1 {
+    width: 80%;
+    height: 60vh;
+    }
+    .square2b {
+        width: 60%;
+        height: 40vh;
+        right: -50vh;
+        left: -20vh;
+        bottom: 0vh; 
+        margin: auto;
+
+    }
+    .square2a{
+        width: 50%;
+        height: 45vh;
+        left: -5vh;
+        bottom: -3vh; 
+    }
+    .square3{
+    width: 150%;
+    height: 30vh;
+    margin: auto;
+    left: -20vh;
+    right: 0;
+    top: -5vh;
+    bottom:-10vh; 
+    }
 }
+
+    
 </style>

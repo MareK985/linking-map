@@ -17,6 +17,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "@glidejs/glide": "^3.4.1",
     "gsap": "^3.2.6",
+    "lax.js": "^1.2.5",
     "nuxt": "^2.0.0",
     "nuxt-fontawesome": "^0.4.0",
     "vue-concise-slider": "^3.4.4",

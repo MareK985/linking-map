@@ -31,22 +31,22 @@
             <div class="cha-text mt-2">
             <h1>Client</h1>
             <p>Specialized in short-term rental business mostly through platforms such as AirBng and Booking.</p>
-          </div>
-          <br/>
-            <h1>Mission</h1>
-            <p>To provide superior value for the client customers (unit owners) for an affordable price, creating a 
-                win-win scenario which will boost the <strong>overall profitability and viability of their business </strong>.</p>
+            </div>
+            <br/>
           </div>
         </div>
         <br/>
         <div class="cha-text mt-2">
-          <h1>Background</h1>
-          <p>In the rise of boutique turistic destinations, personalization, bleisure travel customers nowdays seeking unique experiences also through accomodations.</p>
+          <h1>Business context</h1>
+          <p>In the rise of boutique turistic destinations, personalization, bleisure travel customers nowdays seeking unique experiences also through accomodations.
+            To provide superior value for the client customers (unit owners) for an affordable price, creating a 
+                win-win scenario which will boost the <strong>overall profitability and viability of their business. </strong>
+          </p>
         </div>
         <br/>
         <div class="cha-text mt-2">
-            <h1>Business goal</h1>
-            <div class="card-container">
+            <h1>Business goals</h1>
+            <div class="cards-container">
               <div class="okr">
                 <FlipCardOKR1/>
               </div>
@@ -221,7 +221,7 @@
         </br>
         <!-- 1st paragraph-->
         </br>
-        <div class="cha-text mt-2">
+        <div class="cha-text mt-2 bg-1">
           <div class="wrapper-box">
             <h3 style="padding-bottom: 20px; color: #A9AABD">Product vision</h3>
             <hr style="margin-bottom: 10px; color: #A9AABD"/>
@@ -478,19 +478,7 @@
         <br/>
       </section>
       <!-- END TESTING section-->
-
-
-
-        <footer>
-          <div class="shape">
-          <div class="content">
-            ExpAR store ©2020 
-          </div>
-          </div>
-        </footer>
-
-
-
+      <FooterCase/>
       </main>
     </div>
 </template>
@@ -501,6 +489,8 @@ import SlideshowCarouselUxDesign from '~/components/SlideshowCarouselUxDesign.vu
 import SlideshowCarouselUIDesign from '~/components/SlideshowCarouselUI_Design.vue'
 import FlipCardOKR1 from '~/components/FlipCardOKR1.vue'
 import FlipCardOKR2 from '~/components/FlipCardOKR2.vue'
+import FooterCase from '~/components/FooterCase.vue'
+
 
 
 
@@ -511,7 +501,8 @@ export default {
     SlideshowCarouselUxDesign,
     SlideshowCarouselUIDesign,
     FlipCardOKR1,
-    FlipCardOKR2
+    FlipCardOKR2,
+    FooterCase
   }
 
   // page component definitions
@@ -571,7 +562,7 @@ margin-top: -8%;
   letter-spacing: 0.1rem;
   }
 }
-.card-container{
+.cards-container{
   width: 100%;
   height: auto;
   /*add flexbox style */
@@ -846,30 +837,17 @@ section {
   margin: 0 auto;
 }
 
+.bg-1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.5)), url("~assets/img/bg-1.jpg");  background-size: 96%;
+
+}
+
 // FOOTER // 
 .shape {
   position: relative;
   width: 100%;
   height: 290px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("~assets/img/hero-expar.jpg");  background-size: 100% 290px;
   color: #fff;
-}
-
-footer { 
-  display: flex;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-
-}
-
-.shape:before {
-  position: absolute;
-  width: 100%;
-  height: 20%;
-  content: "";
-  background: linear-gradient(to right bottom, rgba(255, 255, 255, 1) 50%, transparent 50%);
 }
 
 

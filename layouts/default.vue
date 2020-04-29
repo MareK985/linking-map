@@ -27,7 +27,7 @@
   text-align: center;
   box-shadow: 1px 2px 4px grey;
   background: transparent;
-  position: fixed;;
+  position: absolute;
 
 }
 .menu-bar li {
