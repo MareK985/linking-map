@@ -16,6 +16,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "@glidejs/glide": "^3.4.1",
+    "aos": "^3.0.0-beta.6",
     "gsap": "^3.2.6",
     "lax.js": "^1.2.5",
     "nuxt": "^2.0.0",

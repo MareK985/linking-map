@@ -5,12 +5,12 @@
          <img class="hero-image" src="~assets/img/hero-expar.jpg" alt="hero-expar" />          
          <figcaption>
            <div class="hero-title">
-            <h1 class="headline">Expar store</h1>
+            <h1 data-aos="fade" class="headline">Expar store</h1>
             <p class="tagline">experience shopping in your unit</p>
            </div>
           </figcaption>
           <div class="banner-wrapper">
-            <div class="banner">mobile-first <br/> multi-unit <br/> on-demand <br/>e-commerce platform</div>
+            <div data-aos="flip-up" data-aos-duration="1000" class="banner">mobile-first <br/> multi-unit <br/> on-demand <br/>e-commerce platform</div>
           </div>
         </figure>
       </div>
@@ -246,7 +246,7 @@
         <!-- 1st paragraph-->
         </br>
         <div class="cha-text mt-2 bg-1">
-          <div class="wrapper-box">
+          <div class="wrapper-box" data-aos="slide-up" data-aos-easing="ease-in" data-aos-delay="1000">
             <h3 style="padding-bottom: 20px; color: #A9AABD">Product vision</h3>
             <hr style="margin-bottom: 10px; color: #A9AABD"/>
             <p class="vision-statement">“Platform designed as a mobile-first multi-unit on-demand e-commerce web application offering a collection of high-quality local products with a great value (price-performance, choice from an local expert). Employing concept of a »shoppable« apartment, storytelling and latest AR technologies solution will deliver convenient and almost magical customer experience in the comfort of their temporary stay where near enough everything can be up for sale.“ </p>
@@ -261,7 +261,7 @@
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
-            <div class="anim" data-delay="1s">
+            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
               <h2 style="color: #262626;">#1 Sketching</h2>
               <p>In order to really innovate we need to think bewond categories and personas. Future business problems don't fall neathly within the boundaries that were created to solve past problems. User reasearch showed that the most common need is feeling of belonging which people can get when having an authentic travel experience, have possibility to live like a local and blend into community. When arriving to the unit they are looking for empathy, understanding and honest two-way communication</p>
             </div>
@@ -278,7 +278,7 @@
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
-            <div class="anim" data-delay="1s">
+            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
               <h2 style="color: #262626;">#2 Prototyping</h2>
               <p>Goal was to test the concept as soon as possible. So we deside to make a minimalistic wine shelf and place it in one of the apartments:
                 So we: </p>             
@@ -302,7 +302,7 @@
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
-            <div class="anim" data-delay="1s">
+            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
               <h2 style="color: #262626;">#3 Brand Identity Design</h2>
               <p>Goal was design a visual elements that will represent the product vision in a clean and simple way </p>             
               <ul>
@@ -326,7 +326,7 @@
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
-            <div class="anim" data-delay="1s">
+            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
               <h2 style="color: #262626;">#4 Proof of Concept Testing</h2>
               <p>Goals</p>
               <p>Prove the need for:</p>
@@ -360,7 +360,7 @@
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
-            <div class="anim" data-delay="1s">
+            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
               <h2 style="color: #262626;">#5 Creating value for each stakeholder</h2>
               <ul>
                 <li>Project relationships and the Stakeholder Circle - Prioritize and visualize the key stakeholders, mapping their expectations</li>
@@ -379,7 +379,7 @@
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
-            <div class="anim" data-delay="1s">
+            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
               <h2 style="color: #262626;">#6 UX design</h2>
                <ul>
                 <li>User-flow</a></li>
@@ -401,7 +401,7 @@
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
-            <div class="anim" data-delay="1s">
+            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
               <h2 style="color: #262626;">#7 UI design</h2>
                <ul>
                 <li>UI Design system </li>
@@ -420,7 +420,7 @@
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
-            <div class="anim" data-delay="1s">
+            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
               <h2 style="color: #262626;">#8 Wireframing</h2>
                <ul>
                 <li>Fully clickable high fidelity wireframe with micro interactions and animations - test the functionality</li>
@@ -439,7 +439,7 @@
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
-            <div class="anim" data-delay="1s">
+            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
               <h2 style="color: #262626;">#9 Project planning</h2>
               <p>Project is being developed under principles of agile softwere development.</p>
               <ul>
@@ -462,7 +462,7 @@
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
-            <div class="anim" data-delay="1s">
+            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
               <h2 style="color: #262626;">#10 Development</h2>
               <ul>
                 <li>Front-end progressive JavaScript framework: Vue.js / Vue CLI project</li>
