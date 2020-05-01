@@ -60,7 +60,7 @@
       </div>
     </section>
     <!--SERVICE section-->
-    <section class="intro">
+    <section class="intro"data-aos="fade-up">
       <h1 class="title">Our service</h1>
       <br>
       <OnionDiagram/>
@@ -68,7 +68,7 @@
     <!--WORKFLOW section-->
     <section>
       <div class="box-area">
-        <div class="single-box">
+        <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
             <span class="header-text"><strong>Business Process Modelling</strong></span>
@@ -76,7 +76,7 @@
           </div>
         </div>
 
-  	    <div class="single-box">
+  	    <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
             <span class="header-text"><strong>Business Analytics / UX design</strong></span>
@@ -84,7 +84,7 @@
           </div>
         </div>
 
-        <div class="single-box">
+        <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
             <span class="header-text"><strong>HR support</strong></span>
@@ -95,6 +95,8 @@
       </div>
     </section>
 
+    <ContactForm/>
+
 
   </div>
 </template>
@@ -103,12 +105,15 @@
 
 import CreativeDivBox from '~/components/CreativeDivBox.vue'
 import OnionDiagram from '~/components/OnionDiagram.vue'
+import ContactForm from '~/components/ContactForm.vue'
+
 
 
 export default {
   components: {
     CreativeDivBox,
-    OnionDiagram
+    OnionDiagram,
+    ContactForm
   }
 }
 

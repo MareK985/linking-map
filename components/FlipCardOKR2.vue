@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="card-container">
+        <div class="card-container" data-aos="fade">
             <div class="card">
                 <figure class="front">
                     <p style="margin-bottom: 0.5em; font-weight: 400;">OBJECTIVE #2</p>

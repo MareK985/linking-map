@@ -10,8 +10,19 @@
       </div>
     </div>
     <nuxt />
+    <Footer/>
   </div>
 </template>
+
+<script>
+import Footer from '~/components/Footer.vue'
+
+export default {
+  components: {
+    Footer
+  }
+}
+</script>
 
 
 <style>
@@ -46,4 +57,4 @@
   background:rgba(125, 207, 182, 0.8);
   color: white;
 }
-    </style>
+</style>

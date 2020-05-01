@@ -1,6 +1,6 @@
 <template>
     <div class="diagram">
-        <div class="square1 boarder-line">
+        <div class="square1 boarder-line" data-aos="zoom-in">
             <div class="content">
                 <h2 class="title-square" style="top: -23vh;">Bx</h2>
 

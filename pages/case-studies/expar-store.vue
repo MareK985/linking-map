@@ -82,7 +82,7 @@
           <h2>Market oportunity</h2>
           <!--box-section-->
           <div class="box-area">
-            <div class="single-box">
+            <div class="single-box" data-aos="fade-left">
               <div class="img-text">
                 <h4 style="margin-bottom:20px; color:rgba(69, 70, 85, 0.7); text-align: left;">Trends</h4>
                 <p style="margin-bottom:10px;">Following the vision of AirBnB <a target="_blank" href="https://www.youtube.com/watch?time_continue=57&v=nMITXMrrVQU&feature=emb_title">»Bélo: The Story of a Symbol of Belonging«</a> and new trends in turism:</p>
@@ -98,7 +98,7 @@
               </div>
             </div>
 
-            <div class="single-box">
+            <div class="single-box" data-aos="fade-right">
               <div class="img-text">
                 <h4 style="margin-bottom:20px; color:rgba(69, 70, 85, 0.7); text-align: left;">Technologies</h4>
                 <ul>
@@ -114,9 +114,9 @@
 
           <h2 style="margin-top:20px;">Alternatives?</h2>
           <!-- 1st competitor-->
-            <h4 style="color:rgb(69, 70, 85);">SHOPIFY (E-commerce platform)</h4>
+            <h4 style="color:rgb(69, 70, 85);" data-aos="fade">SHOPIFY (E-commerce platform)</h4>
             <div class="box-area">
-              <div class="single-box">
+              <div class="single-box" data-aos="fade-left">
                 <div class="img-text">
                   <p class="pros-cons" style="font-size:50px; margin-bottom: .5em;">PROS+</p> 
                   <ul>
@@ -133,7 +133,7 @@
                   </ul> 
                 </div>
               </div>
-              <div class="single-box">
+              <div class="single-box" data-aos="fade-right">
                 <div class="img-text">
                   <p class="pros-cons" style="font-size:50px; margin-bottom: 0.5em;">CONS-</p> 
                   <ul>
@@ -149,9 +149,9 @@
               </div>
             </div>
             <!-- 2nd competitor-->
-            <h4 style="color:rgb(69, 70, 85);">AirBnb Experience</h4>
+            <h4 style="color:rgb(69, 70, 85);" data-aos="fade">AirBnb Experience</h4>
             <div class="box-area">
-              <div class="single-box">
+              <div class="single-box" data-aos="fade-left">
                 <div class="img-text">
                   <p class="pros-cons" style="font-size:50px; margin-bottom: 0.5em;">PROS+</p> 
                   <ul>
@@ -161,7 +161,7 @@
                   </ul> 
                 </div>
               </div>
-              <div class="single-box">
+              <div class="single-box" data-aos="fade-right">
                 <div class="img-text">
                   <p class="pros-cons" style="font-size:50px; margin-bottom: 0.5em;">CONS-</p> 
                   <ul>
@@ -439,7 +439,7 @@
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
           <div class="right">
-            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
+            <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="800">
               <h2 style="color: #262626;">#9 Project planning</h2>
               <p>Project is being developed under principles of agile softwere development.</p>
               <ul>
