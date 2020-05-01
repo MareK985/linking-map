@@ -59,6 +59,7 @@
         <div class="cha-text mt-2">
             <h1>Timeline</h1>
             <ul>
+              <li>Within 3 months <strong>PoC testing</strong>. </li>
               <li>Within 6 months <strong>MVP testing in 10 units</strong>.
               </li>
               <li>Within 12 months <strong>launch of platform</strong> and offering service to other clients.</li>
@@ -78,77 +79,106 @@
           <h2 class="title">Research</h2>
         </div>
         <div class="main" style="margin-top:20px;" >
-          <h2>Market oportunity & trends</h2>
-          <p>Following the vision of AirBnB <a target="_blank" href="https://www.youtube.com/watch?time_continue=57&v=nMITXMrrVQU&feature=emb_title">»Bélo: The Story of a Symbol of Belonging«</a> and new trends in turism:</p>
-          <ul>
-            <li>Pairing sustainable (responsible) tourism with luxury travel <a href="https://www.redcarnationhotels.com/blog/true-sustainable-luxury" target="_blank">(source)</a></li>
-            <li>Personalized Travel & Bespoke Experiences - a new global luxury trend <a href="https://snamitravel.com/new-global-luxury-trend-personalized-travel-bespoke-experiences/" target="_blank">(source)</a> </li>
-            <li>"Bleisure" is on the rise and it's one of the biggest trends in business travel <a href="https://www.travelpulse.com/news/car-rental-and-rail/bleisure-is-the-biggest-trend-in-business-travel.html" target="_blank">(source)</a></li>
-            <li>Cash free travel <a href="https://www.boutiquecyprusvillas.com/2020-travel-trends-according-to-the-experts/" target="_blank">(source)</a></li>
-            <li>“Ease” become the gold standard by which tech travel innovations will be judged <a href="https://www.boutiquehotelier.com/the-8-biggest-travel-trends-for-2019/" target="_blank">(source)</a></li>
-            <li>Culinary travel has transcended “trend” to become its own niche <a href="https://www.virtuoso.com/articles/virtuoso-communities/Our-Favorite-Vacation-Ideas-for-Food-Lovers#.XkUp22hKiUk" target="_blank">(source)</a> </li>
-            <li>In a post-Internet society, consumers have access to an immense amount of information on the availability, prices, and quality of products. Increased product diversity and information transparency have resulted in more selective and price-sensitive consumers.</li>
-          </ul>
-          <h2>Technologies available</h2>
-          <p>Following the vision of AirBnB <a target="_blank" href="https://www.youtube.com/watch?time_continue=57&v=nMITXMrrVQU&feature=emb_title">»Bélo: The Story of a Symbol of Belonging«</a> and new trends in turism:</p>
-          <ul>
-            <li>AR<a href="https://www.redcarnationhotels.com/blog/true-sustainable-luxury" target="_blank">(source)</a></li>
-            <li>Machine learning<a href="https://www.virtuoso.com/articles/virtuoso-communities/Our-Favorite-Vacation-Ideas-for-Food-Lovers#.XkUp22hKiUk" target="_blank">(source)</a> </li>
-            <li>Video marketring</li>
-          </ul>
-          <h1>What alternatives are available?</h1>
-            <h2>Shopify (E-commerce platform)</h2>
-            <div class="left-dialog">
-              <p>PROS+ <br/> 
-              <ul>
-                <li>Easy to use (for non-developers)</li>
-                <li>Complete control over your on-line store customization</li>
-                <li>Over 100 modern-looking & responsive shop templates</li>
-                <li>Automatic shipping rates</li>
-                <li>Customer support tools (e.g. live chat)</li>
-                <li>Shopify developer products (build public/private app, embedded app, custom storefronts)</li>
-                <li>New add-ons for more features (e.g. Shocodes - scan & purchase with smartphone)</li>
-                <li>Real product Inventory Management</li>
-                <li>Shipping discount</li>
-                <li>Key Performance Metrics available</li>
-              </ul></p> 
+          <h2>Market oportunity</h2>
+          <!--box-section-->
+          <div class="box-area">
+            <div class="single-box">
+              <div class="img-text">
+                <h4 style="margin-bottom:20px; color:rgba(69, 70, 85, 0.7); text-align: left;">Trends</h4>
+                <p style="margin-bottom:10px;">Following the vision of AirBnB <a target="_blank" href="https://www.youtube.com/watch?time_continue=57&v=nMITXMrrVQU&feature=emb_title">»Bélo: The Story of a Symbol of Belonging«</a> and new trends in turism:</p>
+                <ul>
+                  <li>Pairing sustainable (responsible) tourism with luxury travel <a href="https://www.redcarnationhotels.com/blog/true-sustainable-luxury" target="_blank">(source)</a></li>
+                  <li>Personalized Travel & Bespoke Experiences - a new global luxury trend <a href="https://snamitravel.com/new-global-luxury-trend-personalized-travel-bespoke-experiences/" target="_blank">(source)</a> </li>
+                  <li>"Bleisure" is on the rise and it's one of the biggest trends in business travel <a href="https://www.travelpulse.com/news/car-rental-and-rail/bleisure-is-the-biggest-trend-in-business-travel.html" target="_blank">(source)</a></li>
+                  <li>Cash free travel <a href="https://www.boutiquecyprusvillas.com/2020-travel-trends-according-to-the-experts/" target="_blank">(source)</a></li>
+                  <li>“Ease” become the gold standard by which tech travel innovations will be judged <a href="https://www.boutiquehotelier.com/the-8-biggest-travel-trends-for-2019/" target="_blank">(source)</a></li>
+                  <li>Culinary travel has transcended “trend” to become its own niche <a href="https://www.virtuoso.com/articles/virtuoso-communities/Our-Favorite-Vacation-Ideas-for-Food-Lovers#.XkUp22hKiUk" target="_blank">(source)</a> </li>
+                  <li>In a post-Internet society, consumers have access to an immense amount of information on the availability, prices, and quality of products. Increased product diversity and information transparency have resulted in more selective and price-sensitive consumers.</li>
+                </ul>
+              </div>
             </div>
-            <div class="right-dialog">
-              <p>CONS- <br/> 
-              <ul>
-                <li>Limitation on store locations (track inventory on <strong>up to 8 locations</strong>)</li>
-                <li>Subscription fees for most of add-on /features</li>
-                <li>Transaction fees (0,5-2%) unless using Shopify payments (not available in most EU countries)</li>
-                <li>Checkout process can not be customized</li>
-                <li>SEO shortcomings</li>
-                <li>No refunds</li>
-              </ul></p> 
+
+            <div class="single-box">
+              <div class="img-text">
+                <h4 style="margin-bottom:20px; color:rgba(69, 70, 85, 0.7); text-align: left;">Technologies</h4>
+                <ul>
+                  <li>AR<a href="https://www.redcarnationhotels.com/blog/true-sustainable-luxury" target="_blank">(source)</a></li>
+                  <li>Machine learning<a href="https://www.virtuoso.com/articles/virtuoso-communities/Our-Favorite-Vacation-Ideas-for-Food-Lovers#.XkUp22hKiUk" target="_blank">(source)</a> </li>
+                  <li>Video marketing</li>
+                </ul>
+              </div>
+              <div class="img-area"></div>
             </div>
-            <p>The main two reasons that Shopify stores fail is that they are <strong>not able to drive traffic to their website</strong> and they do <strong>not offer unique, high quality products with a branded experience.</strong> <a href="https://www.quora.com/Why-do-most-Shopify-stores-fail-1" target="_blank">(source)</a></a> </p>
-            <h2>AirBnb Experience </h2>
-            <div class="left-dialog">
-              <p>PROS+ <br/> 
-              <ul>
-                <li>Recommendations based on your booking or search</li>
-                <li>Good follow-up and cross-selling strategy</li>
-                <li>Include local people to offer personalized experience.</li>
-              </ul></p> 
+          </div>
+          <!--END box-section-->
+
+          <h2 style="margin-top:20px;">Alternatives?</h2>
+          <!-- 1st competitor-->
+            <h4 style="color:rgb(69, 70, 85);">SHOPIFY (E-commerce platform)</h4>
+            <div class="box-area">
+              <div class="single-box">
+                <div class="img-text">
+                  <p class="pros-cons" style="font-size:50px; margin-bottom: .5em;">PROS+</p> 
+                  <ul>
+                    <li>Easy to use (for non-developers)</li>
+                    <li>Complete control over your on-line store customization</li>
+                    <li>Over 100 modern-looking & responsive shop templates</li>
+                    <li>Automatic shipping rates</li>
+                    <li>Customer support tools (e.g. live chat)</li>
+                    <li>Shopify developer products (build public/private app, embedded app, custom storefronts)</li>
+                    <li>New add-ons for more features (e.g. Shocodes - scan & purchase with smartphone)</li>
+                    <li>Real product Inventory Management</li>
+                    <li>Shipping discount</li>
+                    <li>Key Performance Metrics available</li>
+                  </ul> 
+                </div>
+              </div>
+              <div class="single-box">
+                <div class="img-text">
+                  <p class="pros-cons" style="font-size:50px; margin-bottom: 0.5em;">CONS-</p> 
+                  <ul>
+                    <li>Limitation on store locations (track inventory on <span class="quote">up to 8 locations</span>)</li>
+                    <li>Subscription fees for most of add-on /features</li>
+                    <li>Transaction fees (0,5-2%) unless using Shopify payments (not available in most EU countries)</li>
+                    <li>Checkout process can not be customized</li>
+                    <li>SEO shortcomings</li>
+                    <li>No refunds</li>
+                    <p style="margin-top: 0.3em; margin-bottom: 0.3em">The main two reasons that Shopify stores fail is that they are <span class="quote">not able to drive traffic to their website</span> and they do <span class="quote">not offer unique, high quality products with a branded experience.</span> <a href="https://www.quora.com/Why-do-most-Shopify-stores-fail-1" target="_blank">(source)</a></a> </p>
+                  </ul> 
+                </div>
+              </div>
             </div>
-            <div class="right-dialog">
-              <p>CONS- <br/> 
-              <ul>
-                <li>On spot seling not possible.</li>
-              </ul></p> 
+            <!-- 2nd competitor-->
+            <h4 style="color:rgb(69, 70, 85);">AirBnb Experience</h4>
+            <div class="box-area">
+              <div class="single-box">
+                <div class="img-text">
+                  <p class="pros-cons" style="font-size:50px; margin-bottom: 0.5em;">PROS+</p> 
+                  <ul>
+                    <li>Recommendations based on your booking or search</li>
+                    <li>Good follow-up and cross-selling strategy</li>
+                    <li>Include local people to offer personalized experience.</li>
+                  </ul> 
+                </div>
+              </div>
+              <div class="single-box">
+                <div class="img-text">
+                  <p class="pros-cons" style="font-size:50px; margin-bottom: 0.5em;">CONS-</p> 
+                  <ul>
+                    <li>On spot seling not possible.</li>
+                  </ul> 
+                </div>
+              </div>
             </div>
         </div>
         </br>
         <!-- 1st paragraph-->
-        </br>
+
         <h2>Who are the guests?</h2>
           <div>
             <img src="~/assets/img/personas.jpg" width="500px" alt="image" class="image anim" data-delay="0s"/>
           </div>
-        <h2>Who are the stakeholders? Interviews with stakeholders</h2>
+        <h2>Stakeholders</h2>
           <div>
             <img src="~/assets/img/stakeholder_map.jpg" width="500px" alt="image" class="image anim" data-delay="0s"/>
           </div>
@@ -156,46 +186,40 @@
 
       <table>
         <tr>
-          <th>User</th>
-          <th>Pain/need</th>
-          <th>Requirement </th>
-          <th>Solution</th>
-          <th>Key KPIs</th>
+          <th style="text-transform: uppercase;">User</th>
+          <th style="text-transform: uppercase;">Pain/need</th>
+          <th style="text-transform: uppercase;">Requirement </th>
+          <th style="text-transform: uppercase;">Key KPI-s</th>
         </tr>
         <tr>
-          <td>Guest</td>
-          <td>Sense of belonging --> trust --> community</td>
-          <td>Share stories / Create memories / Interact with local culture / Local experience</td>
-          <td>Apartment store + e-commerce / Real -show room of carefully selected local products and expericences. / Product storytelling/ Deliver-to-your-friend option</td>
-          <td>NPS/CSAT</td>
+          <td style="color:rgb(69,70,85);">Guest</td>
+          <td style="color:rgb(69,70,85);">Sense of belonging --> trust --> community</td>
+          <td style="color:rgb(69,70,85);">Share stories / Create memories / Interact with local culture / Local experience</td>
+          <td style="color:rgb(69,70,85);">NPS/CSAT</td>
         </tr>
         <tr>
           <td>Guest</td>
           <td>Lack of time</td>
           <td>On demand / on spot purchase</td>
-          <td>Easy, few step purchase (scan-to buy) / Deliver-to-your-home option.</td>
           <td>Delivery on time Rate</td>
         </tr>
         <tr>
-          <td>Clients</td>
-          <td>Increase profit (added values) of their products / services</td>
-          <td>↑ Cx ↑ Bx ↑ Ratings ↑ Recurring rate (loyalty)</td>
-          <td>Platform for Cross & upselling during and after custumer temporary stay</td>
-          <td>Revenue Growth Rate / MRR & ARR / NPS / CSAT / Unit Performance</td>
+          <td style="color:rgb(69,70,85);">Clients</td>
+          <td style="color:rgb(69,70,85);">Increase profit (added values) of their products / services</td>
+          <td style="color:rgb(69,70,85);">↑ Cx ↑ Bx ↑ Ratings ↑ Recurring rate (loyalty)</td>
+          <td style="color:rgb(69,70,85);">Revenue Growth Rate / MRR & ARR / NPS / CSAT / Unit Performance</td>
         </tr>
         <tr>
           <td>Supplier</td>
           <td>↑ profit (added values) of their products / services</td>
           <td>↑ Revenue / ↑ Brand recognition</td>
-          <td>New innovative sales channel</td>
           <td>Average Profit Margin / STR / Revenue Growth Rate / Product Performance / MRR & ARR</td>
         </tr>
         <tr>
-          <td>Operator</td>
-          <td>Profitable operation</td>
-          <td>Designed to go global / Real-time performance metrics (sales analytics, customer success strategy)</td>
-          <td>/ </td>
-          <td>FRC, NPS, CSAT, CES, DAU & MAU, ACR, AOV, Average Profit Margin, CRR & CCR, MRR & ARR, CAR, LTV</td>
+          <td style="color:rgb(69,70,85);">Operator</td>
+          <td style="color:rgb(69,70,85);">Profitable operation</td>
+          <td style="color:rgb(69,70,85);">Designed to go global / Real-time performance metrics (sales analytics, customer success strategy)</td>
+          <td style="color:rgb(69,70,85);">FRC, NPS, CSAT, CES, DAU & MAU, ACR, AOV, Average Profit Margin, CRR & CCR, MRR & ARR, CAR, LTV</td>
         </tr>
       </table>
     </div>
@@ -478,6 +502,49 @@
         <br/>
       </section>
       <!-- END TESTING section-->
+      <!-- CONSLUSION SECTION -->
+      <section>
+        <div class="cha-header-clip">
+          <header class="cha-header">
+              case study: ExpAR store
+          </header>
+        </div>
+        <div class="sector-title mt-2">
+          <h2 class="title" style="color:rgb(125, 115, 160)">conclusion</h2>
+        </div>
+        
+        <div class="cha-text mt-2">
+          <div class="wrapper-box">
+            <div class="cha-text mt-2">
+            <h1>Client</h1>
+            <p>Specialized in short-term rental business mostly through platforms such as AirBng and Booking.</p>
+            </div>
+            <br/>
+          </div>
+        </div>
+        <br/>
+        <div class="cha-text mt-2">
+          <h1>Business context</h1>
+          <p>In the rise of boutique turistic destinations, personalization, bleisure travel customers nowdays seeking unique experiences also through accomodations.
+            To provide superior value for the client customers (unit owners) for an affordable price, creating a 
+                win-win scenario which will boost the <strong>overall profitability and viability of their business. </strong>
+          </p>
+        </div>
+        <br/>
+        <div class="cha-text mt-2">
+            <h1>Business goals</h1>
+            <div class="cards-container">
+              <div class="okr">
+                <FlipCardOKR1/>
+              </div>
+              <div class="okr">
+                <FlipCardOKR2/>
+              </div>
+            </div>
+        </div>
+        <br/>
+      </section>
+      <!-- end of CONSLUSION SECTION -->
       <FooterCase/>
       </main>
     </div>
@@ -539,8 +606,49 @@ body {
     text-align: justify;
 }
 
+h2 {
+  font-size: 3.6em;
+}
+
 h3 {
-  font-size: 2.5em;
+  font-size: 2em;
+  margin-bottom: 1.5em;
+
+}
+
+h4 {
+  font-size: 3em;
+  margin-top: 1em;
+
+
+}
+p {
+  font-size: 1.05em;
+  text-align: justify;
+
+
+}
+ul {
+  font-size: 0.95em;
+  line-height: 1.5em;
+  text-align: justify;
+  margin-left: 2em;
+
+}
+
+li {
+  margin-bottom: 0.2em;
+}
+
+.left-dialog {
+      position: relative;
+      display:grid;
+      float: left;
+}
+.right-dialog {
+      position: relative;
+      display:grid;
+      float: left;
 }
 .hero-title {
   margin-top: -25%;
@@ -577,15 +685,6 @@ margin-top: -8%;
   height: 400px;
   box-sizing: border-box;
 }
-  /*add responsive media */
-  @media screen and (max-width: 800px) {
-    .okr {
-      width: 100%;
-      font-size: 0.9em;
-
-    }
-  }
-
 //banner in hero
 .banner {
   background: rgba(125, 115, 160, 0.7);;
@@ -602,30 +701,38 @@ margin-top: -8%;
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 100%;
-  border: 1px solid #ddd;
+  width: 90%;
+  border: 1px solid white;
+  margin-top: 3em;
+  font-size: 1.3em;
+
 }
 
 th, td {
   text-align: left;
-  padding: 8px;
+  padding: 1em;
+  
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(even){background-color: white}
 
 .vision-statement {
   font-size: 2em,
 }
 
-@media screen and (max-width: 1000px) {
-h3 {
-  font-size: 2.0em;
-}
-  .vision-statement {
-  font-size: 1.5em,
-}
+.pros-cons {
+    font-size: 2.7em;
+    font-weight: 600;
+    color:rgba(255, 255, 255, 0.5);
 }
 
+.quote {
+    font-size: 1.5em;
+    color:rgba(42, 34, 78, 0.856);
+ }
+
+
+  /*add responsive media */
 @media screen and (max-width: 600px) {
   .banner {
     padding: 0.5em;
@@ -634,11 +741,70 @@ h3 {
     font-size: 3vw;
     line-height: 15px;
   }
+  h2 {
+      font-size: 1.9em;
+      margin-bottom: 0.5em;
+  }
   h3 {
   font-size: 1.5em;
 }
+  h4 {
+    font-size: 1.4em;
+    margin-top:0;
+  }
+  .quote {
+    font-size: 1.1em;
+ }
+  .pros-cons {
+    font-size: 1.4em;
+    margin-top: .6em;
+    margin-bottom: .1em;
+  }
   .vision-statement {
   font-size: 1.2em,
+}
+table {
+  margin: 0;
+  font-size: 0.7em;
+  width: 100%;
+
+}
+
+p {
+  font-size: 1em;
+}
+
+ul {
+    font-size: 0.8em;
+    padding: 0.2em;
+    margin-left: 0.3em;
+    line-height: 1.3em;
+
+}
+li {
+    margin-bottom: 0.8em;
+}
+
+}
+
+  /*add responsive media */
+  @media screen and (max-width: 800px) {
+    .okr {
+      width: 100%;
+      font-size: 0.9em;
+    }
+    h2 {
+  font-size: 1.8em;
+}
+  }
+
+
+@media screen and (max-width: 1000px) {
+h3 {
+  font-size: 2.0em;
+}
+  .vision-statement {
+  font-size: 1.5em,
 }
 }
 
@@ -684,8 +850,7 @@ h3 {
 
  strong {
        font-size: 20px;
-       color: #454655;
-
+       color: rgb(69, 70, 85);
  }
 
 section {
@@ -785,6 +950,7 @@ section {
     }
 
 
+
 .anim {
   // opacity: 0;
 }
@@ -849,6 +1015,68 @@ section {
   height: 290px;
   color: #fff;
 }
+
+.box-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+.single-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    border-radius: 4px;
+    border-color: #444;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.3s;
+  }
+.img-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 6px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+.single-box:nth-child(1) .img-area{
+    background-image: url("~assets/img/bg-1.jpg");
+  }
+.single-box:nth-child(2) .img-area {
+    background-image: url("~assets/img/bg-1.jpg");
+  }
+.single-box:nth-child(3) .img-area {
+    background-image: url("~assets/img/bg-1.jpg");
+  }
+
+.header-text {
+  font-size: 24px;
+  font-weight:600;
+  line-height: 48px;
+}
+.img-text {
+  padding-top: 20px;
+}
+.img-text p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.single-box:hover{
+  background: rgb(69, 70, 85);
+  }
 
 
 </style>

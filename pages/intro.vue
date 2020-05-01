@@ -18,7 +18,7 @@
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus error repellendus! Dolorem ad necessitatibus illum cumque ipsam odio velit. Soluta facere exercitationem ducimus enim delectus sunt deserunt sapiente ut!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque doloribus error repellendus! Dolorem ad necessitatibus illum cumque ipsam odio velit. Soluta facere exercitationem ducimus enim delectus sunt deserunt sapiente ut!</p>
-        </div> 
+        </div>
 
         <img class="mountains" src="~assets/img/team.jpg" alt="hero-expar" />          
         <img class="trees" src="~assets/img/path.jpg" alt="hero-expar" />          

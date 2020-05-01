@@ -3,20 +3,20 @@
         <div class="card-container">
             <div class="card">
                 <figure class="front">
-                    <h2 style="margin-bottom: 0.5em; font-weight: 400;">OBJECTIVE #1</h2>
+                    <p style="margin-bottom: 0.5em; font-weight: 400;">OBJECTIVE #1</p>
                     <span style="font-size: 4em; color: white;">
                         <font-awesome-icon :icon="['fas', 'long-arrow-alt-up']"/>
                     </span>
-                    <p style="font-size: 2em;">bussiness viability</p>
+                    <p style="font-size: 2em; text-align: center;">bussiness viability</p>
                     
                 </figure>
                 <figure class="back">
-                    <h2 style="margin-bottom: 2em;">Key Results</h2>
-                    <ul style="margin-left: 2em; margin-right: 1em; margin-top: -2em; line-height: 2em;">
+                    <p style="margin-bottom: 2em;">Key Results</p>
+                    <ol style="margin-left: 2em; margin-right: 1em; margin-top: -2em; line-height: 2em;">
                         <li><font-awesome-icon :icon="['fas', 'long-arrow-alt-up']"/> profit by <strong style="font-size: 1.5em; color: white;">10%</strong></li>
                         <li><font-awesome-icon :icon="['fas', 'long-arrow-alt-up']"/> average purchase value by <strong style="font-size: 1.5em; color: white;">10 EUR/day</strong></li>
                         <li><font-awesome-icon :icon="['fas', 'long-arrow-alt-up']"/> No. of operating units by <strong style="font-size: 1.5em; color: white;">20%</strong></li>
-                    </ul>
+                    </ol>
 
                 </figure>
             </div>
@@ -40,7 +40,7 @@
 }
 .card-container {
     width: 250px;
-    height: 300px;
+    height: 350px;
 }
 .card {
     width: 100%;

@@ -3,7 +3,7 @@
         <div class="card-container">
             <div class="card">
                 <figure class="front">
-                    <h2 style="margin-bottom: 0.5em; font-weight: 400;">OBJECTIVE #2</h2>
+                    <p style="margin-bottom: 0.5em; font-weight: 400;">OBJECTIVE #2</p>
                     <span style="font-size: 4em; color: white;">
                         <font-awesome-icon :icon="['fas', 'long-arrow-alt-up']"/>
                     </span>
@@ -11,12 +11,12 @@
                     
                 </figure>
                 <figure class="back">
-                    <h2 style="margin-bottom: 0.6em;">Key Results</h2>
-                    <ul style="margin-left: 2em; margin-right: 1em; line-height: 2em;">
+                    <p style="margin-bottom: 0.6em;">Key Results</p>
+                    <ol style="margin-left: 2em; margin-right: 1em; line-height: 2em;">
                         <li><font-awesome-icon :icon="['fas', 'long-arrow-alt-up']"/> Net Promoter Score (NPS) by <strong style="font-size: 1.5em; color: white;">15%</strong></li>
                         <li><font-awesome-icon :icon="['fas', 'long-arrow-alt-up']"/> Customer Satisfaction (CSAT) by <strong style="font-size: 1.5em; color: white;">15%</strong></li>
                         <li><font-awesome-icon :icon="['fas', 'long-arrow-alt-down']"/> Customer Effort Score (CES) by<strong style="font-size: 1.5em; color: white;">20%</strong></li>
-                    </ul>
+                    </ol>
 
                 </figure>
             </div>
@@ -40,7 +40,7 @@
 }
 .card-container {
     width: 250px;
-    height: 300px;
+    height: 350px;
 }
 .card {
     width: 100%;

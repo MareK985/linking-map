@@ -42,7 +42,7 @@
 .header {
   position:relative;
   text-align:center;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+  background: linear-gradient(180deg, rgba(69, 70, 85,0.7) 0%, rgba(99,118,183,1) 100%);
   color:white;
 }
 .logo {

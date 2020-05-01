@@ -59,11 +59,43 @@
         </div>
       </div>
     </section>
+    <!--SERVICE section-->
     <section class="intro">
       <h1 class="title">Our service</h1>
       <br>
       <OnionDiagram/>
     </section>
+    <!--WORKFLOW section-->
+    <section>
+      <div class="box-area">
+        <div class="single-box">
+          <div class="img-area"></div>
+          <div class="img-text">
+            <span class="header-text"><strong>Business Process Modelling</strong></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illo deserunt hic ducimus quis, quas aliquam delectus amet minus aliquid? Veniam obcaecati, odio ratione earum eum dolore nulla aut consequatur.</p>
+          </div>
+        </div>
+
+  	    <div class="single-box">
+          <div class="img-area"></div>
+          <div class="img-text">
+            <span class="header-text"><strong>Business Analytics / UX design</strong></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illo deserunt hic ducimus quis, quas aliquam delectus amet minus aliquid? Veniam obcaecati, odio ratione earum eum dolore nulla aut consequatur.</p>
+          </div>
+        </div>
+
+        <div class="single-box">
+          <div class="img-area"></div>
+          <div class="img-text">
+            <span class="header-text"><strong>HR support</strong></span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illo deserunt hic ducimus quis, quas aliquam delectus amet minus aliquid? Veniam obcaecati, odio ratione earum eum dolore nulla aut consequatur.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
   </div>
 </template>
 
@@ -187,5 +219,66 @@ path {
   height: 100vh;
 }
 
+.box-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+.single-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    border-radius: 4px;
+    border-color: #444;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    transition: 0.3s;
+  }
+.img-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border: 6px solid #ddd;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 20px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+.single-box:nth-child(1) .img-area{
+    background-image: url("~assets/img/bg-1.jpg");
+  }
+.single-box:nth-child(2) .img-area {
+    background-image: url("~assets/img/bg-1.jpg");
+  }
+.single-box:nth-child(3) .img-area {
+    background-image: url("~assets/img/bg-1.jpg");
+  }
+
+.header-text {
+  font-size: 24px;
+  font-weight:600;
+  line-height: 48px;
+}
+.img-text {
+  padding-top: 20px;
+}
+.img-text p{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.single-box:hover{
+  background:rgb(125, 207, 182);
+}
 
   </style>
