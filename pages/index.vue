@@ -60,10 +60,9 @@
       </div>
     </section>
     <!--SERVICE section-->
-    <section class="intro"data-aos="fade-up">
+    <section data-aos="fade-up">
       <h1 class="title">Our service</h1>
       <br>
-      <OnionDiagram/>
     </section>
     <!--WORKFLOW section-->
     <section>
@@ -94,9 +93,15 @@
 
       </div>
     </section>
-
-    <ContactForm/>
-
+    <section style="margin.: 20px" class="intro"data-aos="fade-up">
+      <br>
+      <OnionDiagram/>
+    </section>
+    <section>
+      <div style="margin.: 20px" class="box-area">
+        <ContactForm/>
+      </div>
+    </section>
 
   </div>
 </template>

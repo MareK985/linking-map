@@ -2,11 +2,11 @@
     <div>
       <div class="hero">
         <figure>
-         <img class="hero-image" src="~assets/img/hero-expar.jpg" alt="hero-expar" />          
+         <img class="hero-image" style="filter: brightness(50%);" src="~assets/img/hero-expar.jpg" alt="hero-expar" />          
          <figcaption>
            <div class="hero-title">
-            <h1 data-aos="fade" class="headline">Expar store</h1>
-            <p class="tagline">experience shopping in your unit</p>
+            <h1 class="headline">Expar store</h1>
+            <div data-aos="fade" class="tagline">experience shopping in your unit</div>
            </div>
           </figcaption>
           <div class="banner-wrapper">
@@ -22,7 +22,7 @@
               case study: ExpAR store
           </header>
         </div>
-        <div class="sector-title mt-2">
+        <div class="sector-title mt-2" data-aos="fade-up-right">
           <h2 class="title" style="color:rgb(125, 115, 160)">Challenge</h2>
         </div>
         
@@ -75,7 +75,7 @@
               case study: ExpAR store
           </header>
         </div>
-        <div class="sector-title mt-2">
+        <div class="sector-title mt-2" data-aos="fade-up-right">
           <h2 class="title">Research</h2>
         </div>
         <div class="main" style="margin-top:20px;" >
@@ -237,7 +237,7 @@
               case study: ExpAR store
           </header>
         </div>
-          <div class="sector-title mt-2">
+          <div class="sector-title mt-2" data-aos="fade-up-right">
             <h2 class="title" style="color:rgb(125, 115, 160)">Design</h2>
           </div>
         <div class="main" style="margin-top:20px;" >
@@ -246,7 +246,7 @@
         <!-- 1st paragraph-->
         </br>
         <div class="cha-text mt-2 bg-1">
-          <div class="wrapper-box" data-aos="slide-up" data-aos-easing="ease-in" data-aos-delay="1000">
+          <div class="wrapper-box" data-aos="slide-up" data-aos-easing="ease-in" data-aos-delay="400">
             <h3 style="padding-bottom: 20px; color: #A9AABD">Product vision</h3>
             <hr style="margin-bottom: 10px; color: #A9AABD"/>
             <p class="vision-statement">“Platform designed as a mobile-first multi-unit on-demand e-commerce web application offering a collection of high-quality local products with a great value (price-performance, choice from an local expert). Employing concept of a »shoppable« apartment, storytelling and latest AR technologies solution will deliver convenient and almost magical customer experience in the comfort of their temporary stay where near enough everything can be up for sale.“ </p>
@@ -256,7 +256,7 @@
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/storyboard_expar.gif" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s" style="color: #262626;">storyboard
+            <p class="anim" data-delay=".5s" style="color: #262626;" data-aos="fade-left">storyboard
             </p>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
@@ -273,7 +273,7 @@
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">prototype
+            <p class="anim" data-delay=".5s" data-aos="fade-left">prototype
             </p>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
@@ -297,7 +297,7 @@
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/cgp_expar.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">brand desing
+            <p class="anim" data-delay=".5s" data-aos="fade-left">brand design
             </p>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
@@ -321,7 +321,7 @@
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/survery-PoC-expar.gif" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">survey
+            <p class="anim" data-delay=".5s" data-aos="fade-left">survey
             </p>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
@@ -355,7 +355,7 @@
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/creating_value_expar.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">Business Model Canvas
+            <p class="anim" data-delay=".5s" data-aos="fade-left">business model canvas
             </p>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
@@ -377,6 +377,8 @@
           <div class="left" style="margin-top:-3%; margin-bottom:-3%">
             <SlideshowCarouselUxDesign style="margin-top:-11.5%;"/>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
+            <p class="anim" data-delay=".5s" data-aos="fade-left">journey map & userflow
+            </p>          
           </div>
           <div class="right">
             <div class="anim" data-delay="1s" data-aos="flip-up" data-aos-duration="1000">
@@ -396,7 +398,7 @@
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/UI-design_system.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">Design system
+            <p class="anim" data-delay=".5s" data-aos="fade-left">design system
             </p>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
@@ -415,7 +417,7 @@
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">wireframe
+            <p class="anim" data-delay=".5s" data-aos="fade-left">wireframe
             </p>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
@@ -434,7 +436,7 @@
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">Product Roadmap
+            <p class="anim" data-delay=".5s" data-aos="fade-left">product roadmap
             </p>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
@@ -457,7 +459,7 @@
         <section class="paragraph">
           <div class="left">
             <img src="~/assets/img/wine-shelf.jpg" width="400px" alt="image" class="image anim" data-delay="0s"/>
-            <p class="anim" data-delay=".5s">MVP design
+            <p class="anim" data-delay=".5s" data-aos="fade-left">MVP design
             </p>
             <img src="~/assets/img/logo-1.svg" width="400px" alt="symbol" class="symbol anim" data-delay=".7s"/>
           </div>
@@ -484,7 +486,7 @@
               case study: ExpAR store
           </header>
         </div>
-          <div class="sector-title mt-2">
+          <div class="sector-title mt-2" data-aos="fade-up-right">
             <h2 class="title">Testing</h2>
           </div>
         <div class="main" style="margin-top:20px;" >
@@ -509,7 +511,7 @@
               case study: ExpAR store
           </header>
         </div>
-        <div class="sector-title mt-2">
+        <div class="sector-title mt-2" data-aos="fade-up-right">
           <h2 class="title" style="color:rgb(125, 115, 160)">conclusion</h2>
         </div>
         
@@ -659,6 +661,8 @@ li {
   }
 .tagline {
     font-size: 5vw;
+    font-weight: 300;
+    margin-top: 1em;
   }
 
 .sector-title {
@@ -912,7 +916,7 @@ section {
       width: 60%; /* The width is 20%, by default */
 
       p {
-        background: white;
+        background:  rgb(125, 115, 160);
         position: absolute;
         margin-top: -35%;
         right: 5%;
@@ -920,7 +924,7 @@ section {
         padding: 1em;
         border-radius: 15px;
         width: 20vw;
-        text-align: left;
+        text-align: center;
       }
 
     }
