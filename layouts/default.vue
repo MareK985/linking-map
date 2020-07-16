@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <div class="header">
-      <div class="nav">
+      <!-- <div class="nav">
         <ul class=menu-bar>
           <li>About us</li>
           <li>Projects</li>
           <li>Contact</li>
         </ul>
-      </div>
+      </div> -->
     </div>
     <nuxt />
     <Footer/>
