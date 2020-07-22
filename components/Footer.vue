@@ -8,7 +8,7 @@
                     <div class="footer-text"> We are currently taking on new projects. Would you like to discuss yours?</div>
                     <p style="color: white; font-size: 0.8rem; font-weight: 300; margin-left: 30px"> +386 40 899 409</p>
                     <a href="https://www.linkedin.com/" target="_blank"><font-awesome-icon style="margin-left: 30px; margin-right: 10px;" :icon="['fab', 'linkedin-in']"/></a>
-                    <a href="mailto:info@linking-map.com" target="_blank"><font-awesome-icon :icon="['fas', 'envelope']"/></a>
+                    <a href="mailto:hello@linking-map.com" target="_blank"><font-awesome-icon :icon="['fas', 'envelope']"/></a>
 
                 </div>
             </div>

@@ -59,6 +59,11 @@
         </div>
       </div>
     </section>
+    <!--WHY section-->
+    <section data-aos="fade-up">
+      <div class="why">A group of highly dedicated professionals on a mission to support companies to cope with challanges of their business transformation.</div>
+      <br>
+    </section>
     <!--SERVICE section-->
     <section data-aos="fade-up">
       <h1 class="title">Our service</h1>
@@ -70,16 +75,26 @@
         <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span class="header-text"><strong>Business Process Modelling</strong></span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illo deserunt hic ducimus quis, quas aliquam delectus amet minus aliquid? Veniam obcaecati, odio ratione earum eum dolore nulla aut consequatur.</p>
+            <span class="header-text"><strong>Business process transformation</strong></span>
+            <ul>
+              <li>Process automation / integrations</li>
+              <li>Data Engineering</li>
+              <li>Business Analytics</li>
+              <li>UX design</li>
+            </ul>
           </div>
         </div>
 
   	    <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span class="header-text"><strong>Business Analytics / UX design</strong></span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illo deserunt hic ducimus quis, quas aliquam delectus amet minus aliquid? Veniam obcaecati, odio ratione earum eum dolore nulla aut consequatur.</p>
+            <span class="header-text"><strong>Digital & Data transformation</strong></span>
+            <ul>
+              <li>Custom Digital solutions</li>
+              <li>Data Engineering</li>
+              <li>Business Analytics</li>
+              <li>UX design</li>
+            </ul>
           </div>
         </div>
 
@@ -93,14 +108,16 @@
 
       </div>
     </section>
-    <section style="margin.: 20px" class="intro"data-aos="fade-up">
+    <section class="project-section" data-aos="fade-up">
       <br>
-      <OnionDiagram/>
+      <h1 class="title" style="color: white;">OUR PROJECTS</h1>
+      <CaseStudyCards/>
+      <!-- <OnionDiagram/> -->
     </section>
-    <section>
-      <div style="margin.: 20px" class="box-area">
+    <section class="contact-form-section">
+      <!-- <div class="box-area"> -->
         <ContactForm/>
-      </div>
+      <!-- </div> -->
     </section>
 
   </div>
@@ -109,16 +126,18 @@
 <script>
 
 import CreativeDivBox from '~/components/CreativeDivBox.vue'
-import OnionDiagram from '~/components/OnionDiagram.vue'
+// import OnionDiagram from '~/components/OnionDiagram.vue'
 import ContactForm from '~/components/ContactForm.vue'
+import CaseStudyCards from '~/components/CaseStudyCards.vue'
+
 
 
 
 export default {
   components: {
     CreativeDivBox,
-    OnionDiagram,
-    ContactForm
+    ContactForm,
+    CaseStudyCards
   }
 }
 
@@ -181,10 +200,34 @@ body {
   margin-top: 1em;
   letter-spacing: 0.03em;
 }
+
+.card-hover:hover{
+  background:rgb(125, 207, 182);
+}
+
+ul {
+  text-align: left;
+}
+li {
+  margin: 2em;
+}
+
+@media screen and (max-width: 600px) {
+.why {
+  font-size: 1.8em;
+  margin-top: 1em;
+  letter-spacing: 0.02em;
+  margin: 2em;
+}
+.project-section {
+  height: 340vh;
+}
+}
+
 @media screen and (max-width: 800px) {
 .title {
-  font-size: 7vh;
-  margin-top: 1em;
+  font-size: 6.5vh;
+  margin: 1em 0.6em;
   letter-spacing: 0.02em;
 }
 }
@@ -225,9 +268,29 @@ path {
 
   }
 }
-.intro {
+
+.project-section {
+  height: 140vh;
+  background: rgb(125, 207, 182);;
+
+  /* background: rgb(125, 207, 182);; */
+  /* background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%); */
+
+}
+
+.contact-form-section {
   height: 100vh;
 }
+
+@media (min-width: 601px) {
+.why {
+  font-size: 2.5vw;
+  margin: 3em 5em;
+  line-height: 1.8em;
+}
+
+}
+
 
 .box-area {
   display: flex;
@@ -235,6 +298,7 @@ path {
   justify-content: center;
   align-items: center;
   }
+
 .single-box {
     position: relative;
     display: flex;
@@ -250,6 +314,14 @@ path {
     padding: 20px;
     transition: 0.3s;
   }
+
+.project-area {
+  display: flex;
+  }
+.project-card {
+  flex-grow: 1;
+  }
+
 .img-area {
     display: flex;
     justify-content: center;

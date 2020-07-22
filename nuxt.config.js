@@ -1,6 +1,9 @@
 
 export default {
   mode: 'universal',
+  server: {
+    host: "0.0.0.0", // default: localhost
+  },
   /*
   ** Headers of the page
   */
@@ -39,6 +42,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    ['bootstrap-vue/nuxt'],
     [
       'nuxt-fontawesome', {
         imports: [
