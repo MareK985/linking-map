@@ -87,8 +87,8 @@
 .card-grid{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-column-gap:  34px;
-  grid-row-gap:  34px;
+  grid-column-gap:  54px;
+  grid-row-gap:  54px;
   max-width: 1200px;
   width: 100%;
 }
@@ -124,7 +124,7 @@
 .card__background{
   background-size: cover;
   background-position: center;
-  border-radius: 34px;
+  border-radius: 38px;
   bottom: 0;
   filter: brightness(0.75) saturate(1.2) contrast(0.85);
   left: 0;
@@ -132,7 +132,7 @@
   right: 0;
   top: 0;
   transform-origin: center;
-  transform: scale(1) translateZ(0);
+  transform: scale(1.1) translateZ(0);
   transition: 
     filter 200ms linear,
     transform 200ms linear;
