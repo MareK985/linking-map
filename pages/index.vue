@@ -220,7 +220,10 @@ li {
   margin: 2em;
 }
 .project-section {
-  height: 340vh;
+  height: 220vh !important;
+}
+.contact-form-section {
+  height: 150vh !important;
 }
 }
 
@@ -271,7 +274,8 @@ path {
 
 .project-section {
   height: 140vh;
-  background: rgb(125, 207, 182);;
+background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36%, rgba(175,255,232,1) 100%);
+
 
   /* background: rgb(125, 207, 182);; */
   /* background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%); */

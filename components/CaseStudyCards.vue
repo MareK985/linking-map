@@ -2,7 +2,9 @@
     <div>
         <section class="hero-section">
             <div class="card-grid">
-                <a class="card" href="#">
+                <a class="card"       
+                @click="showModal"
+>
                     <div class="card__background expar-img"></div>
                     <div class="card__content">
                         <p class="card__category">Digital solutions</p>
@@ -34,13 +36,58 @@
                 </a> -->
             </div>
         </section>
+        <section>
+            <div id="app">
+              <modal
+                v-show="isModalVisible"
+                @close="closeModal"
+              >
+                <template v-slot:header>
+                  <h2>Case study #1: <span style="font-size: 1.5em;">ExpAR Store</span></h2>
+                </template>
+                <template v-slot:body>
+                  <b-container class="bv-example-row">
+                    <b-row>
+                      <b-col sm="8" class="block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad veniam repellendus eius reprehenderit. Aliquam vero cumque incidunt, in molestiae ipsa laboriosam aut exercitationem neque, iste officiis? Veniam dolores hic aspernatur.</b-col>
+                      <b-col sm="4" class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veritatis a, ad eligendi voluptatum deserunt labore! Deserunt, sit fugit atque fugiat, reiciendis deleniti reprehenderit architecto quaerat aperiam a, culpa praesentium.</b-col>
+                    </b-row>
+
+                    <b-row>
+                      <b-col sm class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, aliquam eum incidunt qui laboriosam odio rerum cumque commodi accusamus, alias omnis, consequuntur mollitia pariatur corrupti sit consequatur perferendis numquam praesentium?</b-col>
+                      <b-col sm class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequuntur minima facere id iusto debitis vitae, temporibus impedit nobis aperiam, ratione pariatur perferendis velit voluptate ut explicabo nulla recusandae non?</b-col>
+                      <b-col sm class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit obcaecati perspiciatis consectetur ducimus possimus velit. Necessitatibus aliquid suscipit pariatur fugiat sed a neque ex laboriosam harum et? Harum, error.</b-col>
+                    </b-row>
+                  </b-container>
+                </template>
+                </modal>
+            </div>
+            
+        </section>
     </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+import modal from '~/components/Modal.vue'
+
+  export default {
+    name: 'app',
+    components: {
+      modal,
+    },
+    data () {
+      return {
+        isModalVisible: false,
+      };
+    },
+    methods: {
+      showModal() {
+        this.isModalVisible = true;
+      },
+      closeModal() {
+        this.isModalVisible = false;
+      }
+    },
+  };
 </script>
 
 <style lang="css" scoped>
@@ -75,7 +122,6 @@
 
 .hero-section{
   align-items: flex-start;
-  background: rgb(125, 207, 182);;
 
   /* background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%); */
   display: flex;
@@ -87,8 +133,8 @@
 .card-grid{
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-column-gap:  54px;
-  grid-row-gap:  54px;
+  grid-column-gap:  64px;
+  grid-row-gap:  64px;
   max-width: 1200px;
   width: 100%;
 }
@@ -97,9 +143,22 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url("~assets/img/hero-expar.jpg");
 }
 
-@media(min-width: 540px){
+.block {
+  background: white;
+  margin: 1em;
+}
+
+@media(min-width: 420px){
   .card-grid{
-    grid-template-columns: repeat(1, 1fr); 
+    grid-template-columns: repeat(1, 1fr);
+    margin: 4em;
+    grid-row-gap: 12em;
+  }
+}
+
+@media(min-width: 780px){
+  .card-grid{
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
@@ -112,6 +171,7 @@
 .card{
   list-style: none;
   position: relative;
+  cursor: pointer;
 }
 
 .card:before{
@@ -139,7 +199,7 @@
 }
 
 .card:hover .card__background{
-  transform: scale(1.05) translateZ(0);
+  transform: scale(1.12) translateZ(0);
 }
 
 .card-grid:hover > .card:not(:hover) .card__background{
