@@ -8,11 +8,11 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: "Linking Map",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: "Leading sustainable solutions provider" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/linking-map_flaticon.png' }

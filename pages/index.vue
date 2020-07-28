@@ -60,9 +60,22 @@
       </div>
     </section>
     <!--WHY section-->
-    <section data-aos="fade-up">
-      <div class="why">A group of highly dedicated professionals on a mission to support companies to cope with challanges of their business transformation.</div>
+    <section class="why-bg">
+      <h1 data-aos="fade-up">“Personal trainers” for comprehensive sustainable solutions</h1>
+      <ul class="" data-aos="fade-up-right" data-aos-duration="1000">
+        <li>Helping organizations to optimise all resources for efficient operations</li>
+        <li>Leading business transformation in the organization</li>
+        <li>Enable a symbiosis of sustainable business</li>
+        <li>Providing complete sustainable solutions for Industry 4.0.</li>
+        <li>Equipping organizations for safe future-proof business</li>
+      </ul>
+      <div class="why" data-aos="fade-up">A group of highly dedicated professionals on a mission to support companies to cope with challanges of their business transformation.</div>
       <br>
+      <div class="why">In a quickly changing world, playing an old game better is insufficient.
+What’s needed isn’t change, it is TRANSFORMATION. 
+Change seeks different solutions to intractable problems. 
+Transformation asks different questions so that we can see the problems in a new light.
+</div>
     </section>
     <!--SERVICE section-->
     <section data-aos="fade-up">
@@ -75,12 +88,12 @@
         <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span class="header-text"><strong>Business process transformation</strong></span>
+            <span class="header-text"><strong>Business process solutions</strong></span>
             <ul>
-              <li>Process automation / integrations</li>
-              <li>Data Engineering</li>
-              <li>Business Analytics</li>
-              <li>UX design</li>
+              <li>Process engineering</li>
+              <li>ERP & System implementation</li>
+              <li>Business Intelligence implementation</li>
+              <li>Data & information integration</li>
             </ul>
           </div>
         </div>
@@ -88,12 +101,14 @@
   	    <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span class="header-text"><strong>Digital & Data transformation</strong></span>
+            <span class="header-text"><strong>Digital solutions</strong></span>
             <ul>
-              <li>Custom Digital solutions</li>
-              <li>Data Engineering</li>
               <li>Business Analytics</li>
-              <li>UX design</li>
+              <li>UX/UI/Interaction Design</li>
+              <li>Information Architecture</li>
+              <li>Web Development</li>
+              <li>Digital Testing</li>
+              <li>Video marketing</li>
             </ul>
           </div>
         </div>
@@ -101,8 +116,20 @@
         <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span class="header-text"><strong>HR support</strong></span>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati illo deserunt hic ducimus quis, quas aliquam delectus amet minus aliquid? Veniam obcaecati, odio ratione earum eum dolore nulla aut consequatur.</p>
+            <span class="header-text"><strong>HR solutions</strong></span>
+            <ul>
+              <li>Recruiting</li>
+              <li>Training and education system</li>
+              <li>Employee development</li>
+              <li>Talent acquisition & management</li>
+              <li>Job descriptions</li>
+              <li>Outplacement</li>
+              <li>Employer branding</li>
+              <li>Organisational culture</li>
+              <li>Employee experience</li>
+              <li>Systematization</li>
+              <li>Corporate social responsibility</li>
+            </ul>
           </div>
         </div>
 
@@ -113,13 +140,19 @@
       <h1 class="title" style="color: white;">OUR PROJECTS</h1>
       <CaseStudyCards/>
       <!-- <OnionDiagram/> -->
+      <br />
+      <div class="footer-text">
+        Linking Map<br />
+        Copyright 2020 | 040 899 409 | hello@linking-map.com
+      </div>
+      <MareUXLogo />
     </section>
-    <section class="contact-form-section">
+    <!-- <section class="contact-form-section">
       <!-- <div class="box-area"> -->
-        <ContactForm/>
+        <!-- <ContactForm/> -->
       <!-- </div> -->
-    </section>
-
+      
+    <!-- </section> -->
   </div>
 </template>
 
@@ -127,17 +160,18 @@
 
 import CreativeDivBox from '~/components/CreativeDivBox.vue'
 // import OnionDiagram from '~/components/OnionDiagram.vue'
-import ContactForm from '~/components/ContactForm.vue'
+// import ContactForm from '~/components/ContactForm.vue'
 import CaseStudyCards from '~/components/CaseStudyCards.vue'
-
+import MareUXLogo from "~/components/MareUXLogo.vue";
 
 
 
 export default {
   components: {
     CreativeDivBox,
-    ContactForm,
-    CaseStudyCards
+    // ContactForm,
+    CaseStudyCards,
+    MareUXLogo,
   }
 }
 
@@ -156,16 +190,13 @@ body {
     /* Sizing */
     width: 100vw;
     height: 100vh;
-    
-    /* Flexbox stuff */
+   /* Flexbox stuff */
     display: flex;
     justify-content: center;
     align-items: center;
-    
     /* Text styles */
     text-align: center;
     color: white;
-    
     /* Background styles */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("~assets/img/team.jpg");
     background-size: cover;
@@ -176,10 +207,34 @@ body {
 .hero h1 {
     /* Text styles */
     font-size: 5em;
-    
     /* Margins */
     margin-top: 0;
     margin-bottom: 0.5em;
+    }
+    .why-bg h1 {
+    /* Text styles */
+    font-size: 3.3em;
+    /* Margins */
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 100px;
+    width: 60%;
+    text-align: left;
+    }
+
+    .why-bg ul {
+    /* Text styles */
+    font-size: 1.5em;
+    /* Margins */
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: 100px;
+    text-align: left;
+    padding: 0;
+    }
+    .why-bg li {
+    /* Text styles */
+    padding: 0.2em;
     }
 
 .hero h2 {
@@ -212,19 +267,66 @@ li {
   margin: 2em;
 }
 
+.why-bg {
+    background-image: url("~assets/bg/personal_trainer.png");
+    background-size: 50%;
+    width: 100%;
+    height: auto;
+    background-position: right top;
+    background-repeat: no-repeat;
+  }
+
+
 @media screen and (max-width: 600px) {
+    .why-bg h1 {
+    /* Text styles */
+    font-size: 1.8em;
+    
+    /* Margins */
+    margin-top: 1.8em;
+    margin-bottom: 2.5em;
+    margin-left: 1.5em;
+    width: 80%;
+    text-align: left;
+    }
+    .why-bg ul {
+    /* Text styles */
+    font-size: 1.0em;
+    /* Margins */
+    margin-top: 15em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+    text-align: left;
+    padding: 0;
+    }
+    .why-bg li {
+    /* Text styles */
+    padding: 0em;
+    }
+    .single-box {
+    margin: 0 !important;
+    padding: 0;
+    }
 .why {
   font-size: 1.8em;
   margin-top: 1em;
   letter-spacing: 0.02em;
   margin: 2em;
 }
+.why-bg {
+      background-size: contain;
+      background-position: 50% 4%;
+}
 .project-section {
-  height: 220vh !important;
+  height: 225vh !important;
 }
 .contact-form-section {
   height: 150vh !important;
 }
+ .footer-text {
+    line-height: 1.6em;
+  }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -273,7 +375,7 @@ path {
 }
 
 .project-section {
-  height: 140vh;
+  height: 170vh;
 background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36%, rgba(175,255,232,1) 100%);
 
 
@@ -295,12 +397,20 @@ background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36
 
 }
 
+.footer-text {
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 0.9em;
+  bottom: 0px;
+}
+
 
 .box-area {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   }
 
 .single-box {
@@ -309,12 +419,11 @@ background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
     height: auto;
     border-radius: 4px;
     border-color: #444;
     text-align: center;
-    margin: 20px;
+    margin: 70px;
     padding: 20px;
     transition: 0.3s;
   }
