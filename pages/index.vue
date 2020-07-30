@@ -71,11 +71,17 @@
       </ul>
       <div class="why" data-aos="fade-up">A group of highly dedicated professionals on a mission to support companies to cope with challanges of their business transformation.</div>
       <br>
-      <div class="why">In a quickly changing world, playing an old game better is insufficient.
-What’s needed isn’t change, it is TRANSFORMATION. 
-Change seeks different solutions to intractable problems. 
-Transformation asks different questions so that we can see the problems in a new light.
-</div>
+      <div class="state-box">
+        <div class="statement">Combining digital technologies with the organizational and people changes is required to build a digital information-oriented culture which allows organizations to significantly <span>improve business performance.</span> by:</div>
+        <ul>
+          <li data-aos="fade-right">Capture and use real-time data about Cx (customer experience) for <span class="okr-s">smarter sales interactions</span>.</li>
+          <li data-aos="fade-right">Monitor and track information about product, service and solutions suport for <span class="okr-s">continuous improvement</span>.</li>
+          <li data-aos="fade-right">Share knowledge and information more effectively to <span class="okr-s">act across functions and organization boundaries</span>.</li>
+          <li data-aos="fade-right">Apply deeper and more targeted analytics that eneble <span class="okr-s">better decision-making</span>.</li>
+          <li data-aos="fade-right">Deploy more efficient and agile process and system to <span class="okr-s">react to rapid business change</span>.</li>
+          <li data-aos="fade-right">Adopt more innovative and resilient business models to <span class="okr-s">create disruptive change and innovation in particular industry</span>.</li>
+        </ul>
+      </div>
     </section>
     <!--SERVICE section-->
     <section data-aos="fade-up">
@@ -85,23 +91,31 @@ Transformation asks different questions so that we can see the problems in a new
     <!--WORKFLOW section-->
     <section>
       <div class="box-area">
+
         <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span class="header-text"><strong>Business process solutions</strong></span>
+            <span class="header-text"><strong>Digital Business Transformation</strong></span>
             <ul>
-              <li>Process engineering</li>
-              <li>ERP & System implementation</li>
-              <li>Business Intelligence implementation</li>
-              <li>Data & information integration</li>
+              <li>PLM – Product or Service lifecycle management</li>
+              <li>APM – Agile project management</li>
+              <li>ERP – Enterprise resource planning</li>
+              <li>SCM – Supply chain management</li>
+              <li>CRM – Customer relationship management</li>
+              <li>HRM  - Human resources management</li>
+              <li>CMM – Contract manufacturers management</li>
+              <li>BI – Business intelligence</li>
+              <li>DMS – Data management system</li>
+              <li>DMP – Digital marketing platforms</li>
+              <li>SMM – Social media management</li>
             </ul>
           </div>
         </div>
 
-  	    <div class="single-box" data-aos="zoom-in">
+        <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span class="header-text"><strong>Digital solutions</strong></span>
+            <span class="header-text"><strong>Custom Digital Solutions</strong></span>
             <ul>
               <li>Business Analytics</li>
               <li>UX/UI/Interaction Design</li>
@@ -113,10 +127,10 @@ Transformation asks different questions so that we can see the problems in a new
           </div>
         </div>
 
-        <div class="single-box" data-aos="zoom-in">
+                <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span class="header-text"><strong>HR solutions</strong></span>
+            <span style="padding-right: 1.5em;" class="header-text"><strong>Sustainable HR support</strong></span>
             <ul>
               <li>Recruiting</li>
               <li>Training and education system</li>
@@ -132,7 +146,6 @@ Transformation asks different questions so that we can see the problems in a new
             </ul>
           </div>
         </div>
-
       </div>
     </section>
     <section class="project-section" data-aos="fade-up">
@@ -237,6 +250,19 @@ body {
     padding: 0.2em;
     }
 
+    .state-box ul{
+          /* Text styles */
+    font-size: 1.9em;
+    /* Margins */
+    margin: 0.5em;
+    text-align: left;
+    padding: 0;
+    }
+    .state-box li {
+    /* Text styles */
+    padding: 0.1em;
+    }
+
 .hero h2 {
     /* Text styles */
     font-size: 2rem;
@@ -264,7 +290,14 @@ ul {
   text-align: left;
 }
 li {
-  margin: 2em;
+  margin: 1em;
+}
+
+.okr-s {
+  font-size: 1.5em;
+  color: grey;
+  text-shadow: none;
+  font-weight: 900;
 }
 
 .why-bg {
@@ -275,6 +308,20 @@ li {
     background-position: right top;
     background-repeat: no-repeat;
   }
+
+  .statement {
+  font-size: 3em;
+  margin: 3em;
+  }
+
+.state-box {
+    background:rgb(125, 207, 182);
+    width: 80%;
+    height: auto;
+    padding: 2em;
+    color: white;
+    text-shadow:1px 1px 4px rgba(0, 0, 0, 0.3);
+}
 
 
 @media screen and (max-width: 600px) {
@@ -303,22 +350,39 @@ li {
     /* Text styles */
     padding: 0em;
     }
+    .state-box ul{
+          /* Text styles */
+    font-size: 1.3em;
+    /* Margins */
+    margin: 0.3em;
+    padding: 0;
+    }
+    .state-box li{
+      margin: 2em;
+    }
+
     .single-box {
     margin: 0 !important;
     padding: 0;
     }
 .why {
   font-size: 1.8em;
-  margin-top: 1em;
+  margin: 3em 0.6em;
   letter-spacing: 0.02em;
-  margin: 2em;
 }
+.statement {
+  font-size: 1.4em;
+  margin: 0.7em;
+  letter-spacing: 0.015em;
+  text-align: initial;
+}
+
 .why-bg {
       background-size: contain;
       background-position: 50% 4%;
 }
 .project-section {
-  height: 225vh !important;
+  height: 220vh !important;
 }
 .contact-form-section {
   height: 150vh !important;
@@ -326,7 +390,11 @@ li {
  .footer-text {
     line-height: 1.6em;
   }
-
+.state-box {
+    width: 100%;
+    padding: 0.6em;
+    text-align: justify;
+}
 }
 
 @media screen and (max-width: 800px) {
@@ -375,7 +443,7 @@ path {
 }
 
 .project-section {
-  height: 170vh;
+  height: 130vh;
 background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36%, rgba(175,255,232,1) 100%);
 
 
@@ -391,7 +459,7 @@ background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36
 @media (min-width: 601px) {
 .why {
   font-size: 2.5vw;
-  margin: 3em 5em;
+  margin: 5em 5em;
   line-height: 1.8em;
 }
 
@@ -460,12 +528,14 @@ background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36
   }
 
 .header-text {
-  font-size: 24px;
+  font-size: 3.2vh;
   font-weight:600;
   line-height: 48px;
 }
 .img-text {
   padding-top: 20px;
+  text-align: center;
+
 }
 .img-text p{
   font-size: 15px;
