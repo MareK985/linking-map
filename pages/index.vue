@@ -72,14 +72,14 @@
       <div class="why" data-aos="fade-up">A group of highly dedicated professionals on a mission to support companies to cope with challanges of their business transformation.</div>
       <br>
       <div class="state-box">
-        <div class="statement">Combining digital technologies with the organizational and people changes is required to build a digital information-oriented culture which allows organizations to significantly <span>improve business performance.</span> by:</div>
+        <div class="statement">Combining digital technologies with the organizational and people changes is required to build a digital information-oriented culture which allows organizations to significantly <span>improve business performance</span> by:</div>
         <ul>
-          <li data-aos="fade-right">Capture and use real-time data about Cx (customer experience) for <span class="okr-s">smarter sales interactions</span>.</li>
-          <li data-aos="fade-right">Monitor and track information about product, service and solutions suport for <span class="okr-s">continuous improvement</span>.</li>
-          <li data-aos="fade-right">Share knowledge and information more effectively to <span class="okr-s">act across functions and organization boundaries</span>.</li>
-          <li data-aos="fade-right">Apply deeper and more targeted analytics that eneble <span class="okr-s">better decision-making</span>.</li>
-          <li data-aos="fade-right">Deploy more efficient and agile process and system to <span class="okr-s">react to rapid business change</span>.</li>
-          <li data-aos="fade-right">Adopt more innovative and resilient business models to <span class="okr-s">create disruptive change and innovation in particular industry</span>.</li>
+          <li data-aos="fade-right">Capture and use real-time data about Cx (customer experience) for <span class="okr-s">smarter sales interactions</span></li>
+          <li data-aos="fade-right">Monitor and track information about product, service and solutions suport for <span class="okr-s">continuous improvement</span></li>
+          <li data-aos="fade-right">Share knowledge and information more effectively to <span class="okr-s">act across functions and organization boundaries</span></li>
+          <li data-aos="fade-right">Apply deeper and more targeted analytics that eneble <span class="okr-s">better decision-making</span></li>
+          <li data-aos="fade-right">Deploy more efficient and agile process and system to <span class="okr-s">react to rapid business change</span></li>
+          <li data-aos="fade-right">Adopt more innovative and resilient business models to <span class="okr-s">create disruptive change and innovation in particular industry</span></li>
         </ul>
       </div>
     </section>
@@ -121,6 +121,7 @@
               <li>UX/UI/Interaction Design</li>
               <li>Information Architecture</li>
               <li>Web Development</li>
+              <li>Mobile App Development</li>
               <li>Digital Testing</li>
               <li>Video marketing</li>
             </ul>
@@ -382,7 +383,7 @@ li {
       background-position: 50% 4%;
 }
 .project-section {
-  height: 220vh !important;
+  height: 145vh !important;
 }
 .contact-form-section {
   height: 150vh !important;
@@ -507,9 +508,9 @@ background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
-    border: 6px solid #ddd;
+    width: 150px;
+    height: 150px;
+    /* border: 6px solid #ddd; */
     border-radius: 50%;
     margin-bottom: 10px;
     padding: 20px;
@@ -518,13 +519,13 @@ background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36
     background-position: center center;
   }
 .single-box:nth-child(1) .img-area{
-    background-image: url("~assets/img/bg-1.jpg");
+    background-image: url("~assets/icons/process_transformation.png");
   }
 .single-box:nth-child(2) .img-area {
-    background-image: url("~assets/img/bg-1.jpg");
+    background-image: url("~assets/icons/digital_icon.png");
   }
 .single-box:nth-child(3) .img-area {
-    background-image: url("~assets/img/bg-1.jpg");
+    background-image: url("~assets/icons/hr_icon.png");
   }
 
 .header-text {
@@ -542,8 +543,8 @@ background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36
   font-weight: 400;
   line-height: 30px;
 }
-.single-box:hover{
+/* .single-box:hover{
   background:rgb(125, 207, 182);
-}
+} */
 
   </style>

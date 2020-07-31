@@ -13,13 +13,15 @@
 
                     </div>
                 </a>
-                <a class="card" href="#">
+                <!-- 2ND card -->
+                <!-- <a class="card" href="#">
                     <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557187666-4fd70cf76254?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
                     <div class="card__content">
                         <p class="card__category">Category</p>
                         <h3 class="card__heading">Example Card Heading</h3>
                     </div>
-                </a>
+                </a> -->
+                <!-- end of 2nd card -->
                 <!-- <a class="card" href="#">
                     <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
                     <div class="card__content">
@@ -48,14 +50,74 @@
                 <template v-slot:body>
                   <b-container class="bv-example-row">
                     <b-row>
-                      <b-col sm="8" class="block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad veniam repellendus eius reprehenderit. Aliquam vero cumque incidunt, in molestiae ipsa laboriosam aut exercitationem neque, iste officiis? Veniam dolores hic aspernatur.</b-col>
-                      <b-col sm="4" class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem veritatis a, ad eligendi voluptatum deserunt labore! Deserunt, sit fugit atque fugiat, reiciendis deleniti reprehenderit architecto quaerat aperiam a, culpa praesentium.</b-col>
+                      <b-col sm="5" class="block">
+                        <h3>CLIENT</h3>
+                        <p >Specialized in <strong>short-term rental business</strong>, mostly through platforms such as AirBnB and Booking.</strong></p>
+                      </b-col>
+                      <b-col sm="5" class="block">
+                        <h3>TIMELINE</h3>
+                        <p style="text-align: left;">+3 months: <strong>Proof-of-Concept (PoC) testing</strong> </br>
+                        +6 months: <strong>Testing of Min. Viable Product (MVP)</strong> in 10 units</br>
+                        +12 months: <strong>Product Launch </strong></p>
+                      </b-col>
                     </b-row>
-
                     <b-row>
-                      <b-col sm class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, aliquam eum incidunt qui laboriosam odio rerum cumque commodi accusamus, alias omnis, consequuntur mollitia pariatur corrupti sit consequatur perferendis numquam praesentium?</b-col>
-                      <b-col sm class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequuntur minima facere id iusto debitis vitae, temporibus impedit nobis aperiam, ratione pariatur perferendis velit voluptate ut explicabo nulla recusandae non?</b-col>
-                      <b-col sm class="block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit obcaecati perspiciatis consectetur ducimus possimus velit. Necessitatibus aliquid suscipit pariatur fugiat sed a neque ex laboriosam harum et? Harum, error.</b-col>
+                      <b-col sm="6" class="block">
+                        <h3>BUSINESS CONTEXT</h3>
+                        <p>In the rise of boutique turistic destinations, personalization, bleisure travel etc. customers nowdays seeking unique experiences also through accomodations. To provide superior value for the client customers (unit owners) for an affordable price, creating a win-win scenario which will <strong>boost the overall profitability and viability of their business.</strong></p>
+                      </b-col>
+                      <b-col sm="5" class="block">
+                        <h3>OBJECTIVES (OKRs)</h3>
+                        <p style="text-align: left;">Objective 1#: <strong>increase business viability</strong> by increase of: <br/> - profit (+10%), <br/> - average purchase value (+10 EUR/day), <br/> - no. of operating units (+ 20%/year)</p>
+                        <br/>
+                        <p style="text-align: left;">Objective 2#: <strong>increase brand value</strong> by increase of: <br> - Net Promoter Score (NPS +15%), <br/> - Customer Satisfaction (CSAT +15%) <br> and reduce Customer Effort Score (CES -20%)</p>
+                      </b-col>
+                    </b-row>
+                    <b-row>
+                      <b-col sm="11" class="block">
+                        <h3>ACTIVITIES</h3>
+                        <h4>Research</h4>
+                        <ul>
+                          <li>Market oportunity (trends, technology, other alternatives)</li>
+                          <li>Competition Analysis</li>
+                          <li>Persona creation (customer surveys></li>
+                          <li>Customer Journey Mapping</li>
+                          <li>Stakeholder Analysis (interviews)</li>
+                        </ul>
+                        <h4>Ideation & Design</h4>
+                        <ul style="list-style-type: none;">
+                          <li>#1 Sketching</li>
+                          <li>#2 Prototyping</li>
+                          <li>#3 Brand Identity Design</li>
+                          <li>#4 Proof-of-Concept testing</li>
+                          <li>#5 Creating value for each stakeholder (Business Model Canvas) </li>
+                          <li>#6 UX Design (Userflow, Sitemap, Low-fidelity wireframe, Class Diagram)</li>
+                          <li>#7 UI Design (Design System)</li>
+                          <li>#8 Interaction Design (High-fidelity wireframe)</li>
+                          <li>#9 Project Planning (RoadMap, Backlog)</li>
+                        </ul>
+                        <h4>Development</h4>
+                        <p>Type of digital product:
+                        <strong>Web-based SaaS application</strong> </p>
+                        <p>Front-end development environment: <strong>Vue.js</strong></p>
+                        <p>Back-end development environment: <strong>Node.js</strong></p>
+                        <h4>Usability Testing</h4>
+                        <ul>
+                          <li>Tree testing</li>
+                          <li>First click testing</li>
+                          <li>5 sec. testing</li>
+                        </ul>
+                      </b-col>
+                    </b-row>
+                    <b-row>
+                      <b-col sm class="block">
+                        <h3>PRODUCT VISION</h3>
+                        <p>“Platform designed as a <strong>multi-unit on-demand m-commerce web application</strong> offering a collection of high-quality local products with a great value (price-performance, choice from an local expert). Employing concept of a <strong>»shoppable« apartment, storytelling and latest AR technologies</strong> solution will deliver convenient and almost magical customer experience in the comfort of their temporary stay where <strong>near enough everything can be up for sale.</strong>“</p>
+                      </b-col>
+                      <b-col sm class="block">
+                        <h3>RESULTS</h3>
+                        <p>With the use of design thinking, UCD process approach and agile techniques we finished PoC testing. User feedbacks gathered through survarys, review forms will be used for iteration and confirmation of functionalites needed for MVP. <strong>At the moment we are in the phase of MVP development.</strong></p>
+                      </b-col>
                     </b-row>
                   </b-container>
                 </template>
@@ -120,6 +182,18 @@ import modal from '~/components/Modal.vue'
   height: 100%;
 }
 
+.block h3 {
+  margin-bottom: 0.6em;
+}
+.block ul {
+  margin-left: 2em;
+}
+
+.block strong {
+  color: rgb(125, 207, 182);
+  text-shadow: 0.3px 0.3px 0.3px rgba(0, 0, 0, 0.329);;
+}
+
 .hero-section{
   align-items: flex-start;
 
@@ -146,6 +220,8 @@ import modal from '~/components/Modal.vue'
 .block {
   background: white;
   margin: 1em;
+  padding: 1em;
+  text-align: justify;
 }
 
 @media(min-width: 420px){
@@ -233,7 +309,7 @@ import modal from '~/components/Modal.vue'
 .card__description {
   color: white;
   font-weight: 300;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-top: 2em;
   text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
   line-height: 1.3;

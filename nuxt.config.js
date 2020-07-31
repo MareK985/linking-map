@@ -31,12 +31,16 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [{ src: "@/plugins/aos", ssr: false
-  }
+  },
+  { src: '~plugins/ga.js', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-31027116-5'
+    }]
   ],
   /*
   ** Nuxt.js modules
