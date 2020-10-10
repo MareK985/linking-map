@@ -12,7 +12,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "Leading sustainable solutions provider" }
+      { hid: 'description', name: 'description', content: "Leading sustainable solutions provider" },
+      { property: 'og:image', content: "~/assets/img/hero_2.jpg"  }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/linking-map_flaticon.png' }

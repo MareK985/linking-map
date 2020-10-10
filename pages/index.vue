@@ -61,18 +61,18 @@
     </section>
     <!--WHY section-->
     <section class="why-bg">
-      <h1 data-aos="fade-up">“Personal trainers” for comprehensive sustainable solutions</h1>
+      <h1 data-aos="fade-up">“Personal trainers” for comprehensive digital solutions</h1>
       <ul class="" data-aos="fade-up-right" data-aos-duration="1000">
-        <li>Helping organizations to optimise all resources for efficient operations</li>
-        <li>Leading business transformation in the organization</li>
-        <li>Enable a symbiosis of sustainable business</li>
-        <li>Providing complete sustainable solutions for Industry 4.0.</li>
-        <li>Equipping organizations for safe future-proof business</li>
+        <li><span class="bold">Optimising all resources</span> for efficient operations</li>
+        <li>Leading <span class="bold">business transformation</span> in the organization</li>
+        <li>Enable <span class="bold">symbiosis</span> of sustainable business</li>
+        <li>Providing <span class="bold">complete solutions</span> for Industry 4.0.</li>
+        <li>Equipping organizations for safe <span class="bold">future-proof business</span></li>
       </ul>
-      <div class="why" data-aos="fade-up">A group of highly dedicated professionals on a mission to support companies to cope with challanges of their business transformation.</div>
       <br>
       <div class="state-box">
-        <div class="statement">Combining digital technologies with the organizational and people changes is required to build a digital information-oriented culture which allows organizations to significantly <span>improve business performance</span> by:</div>
+              <div class="why" data-aos="fade-up">A group of highly dedicated professionals on a mission to support companies to cope with challanges of their business transformation.</div>
+        <!-- <div class="statement">Combining digital technologies with the organizational and people changes is required to build a digital information-oriented culture which allows organizations to significantly <span>improve business performance</span> by:</div>
         <ul>
           <li data-aos="fade-right">Capture and use real-time data about Cx (customer experience) for <span class="okr-s">smarter sales interactions</span></li>
           <li data-aos="fade-right">Monitor and track information about product, service and solutions suport for <span class="okr-s">continuous improvement</span></li>
@@ -80,7 +80,7 @@
           <li data-aos="fade-right">Apply deeper and more targeted analytics that eneble <span class="okr-s">better decision-making</span></li>
           <li data-aos="fade-right">Deploy more efficient and agile process and system to <span class="okr-s">react to rapid business change</span></li>
           <li data-aos="fade-right">Adopt more innovative and resilient business models to <span class="okr-s">create disruptive change and innovation in particular industry</span></li>
-        </ul>
+        </ul> -->
       </div>
     </section>
     <!--SERVICE section-->
@@ -171,120 +171,120 @@
 </template>
 
 <script>
-
 import CreativeDivBox from '~/components/CreativeDivBox.vue'
 // import OnionDiagram from '~/components/OnionDiagram.vue'
 // import ContactForm from '~/components/ContactForm.vue'
 import CaseStudyCards from '~/components/CaseStudyCards.vue'
-import MareUXLogo from "~/components/MareUXLogo.vue";
-
-
+import MareUXLogo from '~/components/MareUXLogo.vue'
 
 export default {
   components: {
     CreativeDivBox,
     // ContactForm,
     CaseStudyCards,
-    MareUXLogo,
+    MareUXLogo
   }
 }
-
 </script>
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
 
-
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Lato;
+  margin: 0;
+  padding: 0;
+  font-family: Lato;
+}
+.bold {
+  font-size: 1.4em;
+  font-weight: 600;
 }
 .hero {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
-   /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* Text styles */
-    text-align: center;
-    color: white;
-    /* Background styles */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("~assets/img/team.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+  /* Flexbox stuff */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Text styles */
+  text-align: center;
+  color: white;
+  /* Background styles */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('~assets/img/team.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .hero h1 {
-    /* Text styles */
-    font-size: 5em;
-    /* Margins */
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    }
-    .why-bg h1 {
-    /* Text styles */
-    font-size: 3.3em;
-    /* Margins */
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    margin-left: 100px;
-    width: 60%;
-    text-align: left;
-    }
+  /* Text styles */
+  font-size: 5em;
+  /* Margins */
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+.why-bg h1 {
+  /* Text styles */
+  font-size: 3.3em;
+  /* Margins */
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-left: 100px;
+  width: 60%;
+  text-align: left;
+}
 
-    .why-bg ul {
-    /* Text styles */
-    font-size: 1.5em;
-    /* Margins */
-    margin-top: 1em;
-    margin-bottom: 0.5em;
-    margin-left: 100px;
-    text-align: left;
-    padding: 0;
-    }
-    .why-bg li {
-    /* Text styles */
-    padding: 0.2em;
-    }
+.why-bg ul {
+  /* Text styles */
+  font-size: 1.5em;
+  /* Margins */
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  margin-left: 100px;
+  text-align: left;
+  padding: 0;
+}
+.why-bg li {
+  /* Text styles */
+  padding: 0.2em;
+}
 
-    .state-box ul{
-          /* Text styles */
-    font-size: 1.9em;
-    /* Margins */
-    margin: 0.5em;
-    text-align: left;
-    padding: 0;
-    }
-    .state-box li {
-    /* Text styles */
-    padding: 0.1em;
-    }
+.state-box ul {
+  /* Text styles */
+  font-size: 1.9em;
+  /* Margins */
+  margin: 0.5em;
+  text-align: left;
+  padding: 0;
+}
+.state-box li {
+  /* Text styles */
+  padding: 0.1em;
+}
 
 .hero h2 {
-    /* Text styles */
-    font-size: 2rem;
-    font-weight: 300;
-    letter-spacing: 0.1em;
+  /* Text styles */
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
 
-    /* Margins */
-    margin-top: 1em;
-    margin-bottom: 1.5em;
+  /* Margins */
+  margin-top: 1em;
+  margin-bottom: 1.5em;
 }
 .title {
   font-size: 12vh;
-  color:#262626;
+  color: #262626;
   text-transform: uppercase;
   text-align: center;
   margin-top: 1em;
   letter-spacing: 0.03em;
 }
 
-.card-hover:hover{
-  background:rgb(125, 207, 182);
+.card-hover:hover {
+  background: rgb(125, 207, 182);
 }
 
 ul {
@@ -302,115 +302,114 @@ li {
 }
 
 .why-bg {
-    background-image: url("~assets/bg/personal_trainer.png");
-    background-size: 50%;
-    width: 100%;
-    height: auto;
-    background-position: right top;
-    background-repeat: no-repeat;
-  }
-
-  .statement {
-  font-size: 3em;
-  margin: 3em;
-  }
-
-.state-box {
-    background:rgb(125, 207, 182);
-    width: 80%;
-    height: auto;
-    padding: 2em;
-    color: white;
-    text-shadow:1px 1px 4px rgba(0, 0, 0, 0.3);
+  background-image: url('~assets/bg/personal_trainer.png');
+  background-size: 50%;
+  width: 100%;
+  height: auto;
+  background-position: right top;
+  background-repeat: no-repeat;
 }
 
+.statement {
+  font-size: 3em;
+  margin: 3em;
+}
+
+.state-box {
+  background: rgb(125, 207, 182);
+  width: 80%;
+  height: auto;
+  /* padding: 2px; */
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
 
 @media screen and (max-width: 600px) {
-    .why-bg h1 {
+  .why-bg h1 {
     /* Text styles */
     font-size: 1.8em;
-    
+
     /* Margins */
     margin-top: 1.8em;
     margin-bottom: 2.5em;
     margin-left: 1.5em;
     width: 80%;
     text-align: left;
-    }
-    .why-bg ul {
+  }
+  .why-bg ul {
     /* Text styles */
-    font-size: 1.0em;
+    font-size: 1em;
     /* Margins */
     margin-top: 15em;
     margin-bottom: 0.5em;
     margin-left: 10px;
     text-align: left;
     padding: 0;
-    }
-    .why-bg li {
+  }
+  .why-bg li {
     /* Text styles */
     padding: 0em;
-    }
-    .state-box ul{
-          /* Text styles */
+  }
+  .state-box ul {
+    /* Text styles */
     font-size: 1.3em;
     /* Margins */
     margin: 0.3em;
     padding: 0;
-    }
-    .state-box li{
-      margin: 2em;
-    }
+  }
+  .state-box li {
+    margin: 2em;
+  }
 
-    .single-box {
+  .single-box {
     margin: 0 !important;
     padding: 0;
-    }
-.why {
-  font-size: 1.8em;
-  margin: 3em 0.6em;
-  letter-spacing: 0.02em;
-}
-.statement {
-  font-size: 1.4em;
-  margin: 0.7em;
-  letter-spacing: 0.015em;
-  text-align: initial;
-}
+  }
+  .why {
+    font-size: 1.8em;
+    margin: 3em 0.6em;
+    letter-spacing: 0.02em;
+  }
+  .statement {
+    font-size: 1.4em;
+    margin: 0.7em;
+    letter-spacing: 0.015em;
+    text-align: initial;
+  }
 
-.why-bg {
-      background-size: contain;
-      background-position: 50% 4%;
-}
-.project-section {
-  height: 145vh !important;
-}
-.contact-form-section {
-  height: 150vh !important;
-}
- .footer-text {
+  .why-bg {
+    background-size: contain;
+    background-position: 50% 4%;
+  }
+  .project-section {
+    height: 145vh !important;
+  }
+  .contact-form-section {
+    height: 150vh !important;
+  }
+  .footer-text {
     line-height: 1.6em;
   }
-.state-box {
+  .state-box {
     width: 100%;
     padding: 0.6em;
     text-align: justify;
-}
+  }
 }
 
 @media screen and (max-width: 800px) {
-.title {
-  font-size: 6.5vh;
-  margin: 1em 0.6em;
-  letter-spacing: 0.02em;
-}
+  .title {
+    font-size: 6.5vh;
+    margin: 1em 0.6em;
+    letter-spacing: 0.02em;
+  }
 }
 .wrapper {
   position: absolute;
   top: 25%;
   left: 50%;
   transform: translate(-50%, +0%);
-  width: 70%
+  width: 70%;
 }
 
 path {
@@ -418,7 +417,7 @@ path {
   fill: #fff;
   stroke-dasharray: 1800;
   opacity: 10;
-  animation: animate 5s cubic-bezier(0, 0.20,1,.1);
+  animation: animate 5s cubic-bezier(0, 0.2, 1, 0.1);
 }
 
 @keyframes animate {
@@ -439,18 +438,20 @@ path {
     opacity: 10;
     fill: rgba(255, 255, 255, 1);
     stroke-dashoffset: 0;
-
   }
 }
 
 .project-section {
   height: 130vh;
-background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36%, rgba(175,255,232,1) 100%);
-
+  background: linear-gradient(
+    278deg,
+    rgba(76, 158, 134, 1) 0%,
+    rgba(79, 111, 133, 1) 36%,
+    rgba(175, 255, 232, 1) 100%
+  );
 
   /* background: rgb(125, 207, 182);; */
   /* background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%); */
-
 }
 
 .contact-form-section {
@@ -458,12 +459,11 @@ background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36
 }
 
 @media (min-width: 601px) {
-.why {
-  font-size: 2.5vw;
-  margin: 5em 5em;
-  line-height: 1.8em;
-}
-
+  .why {
+    font-size: 2.5vw;
+    margin: 5em 5em;
+    line-height: 1.8em;
+  }
 }
 
 .footer-text {
@@ -474,71 +474,69 @@ background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36
   bottom: 0px;
 }
 
-
 .box-area {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
-  }
+}
 
 .single-box {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    border-radius: 4px;
-    border-color: #444;
-    text-align: center;
-    margin: 70px;
-    padding: 20px;
-    transition: 0.3s;
-  }
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  border-radius: 4px;
+  border-color: #444;
+  text-align: center;
+  margin: 70px;
+  padding: 20px;
+  transition: 0.3s;
+}
 
 .project-area {
   display: flex;
-  }
+}
 .project-card {
   flex-grow: 1;
-  }
+}
 
 .img-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-    /* border: 6px solid #ddd; */
-    border-radius: 50%;
-    margin-bottom: 10px;
-    padding: 20px;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-.single-box:nth-child(1) .img-area{
-    background-image: url("~assets/icons/process_transformation.png");
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  /* border: 6px solid #ddd; */
+  border-radius: 50%;
+  margin-bottom: 10px;
+  padding: 20px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+.single-box:nth-child(1) .img-area {
+  background-image: url('~assets/icons/process_transformation.png');
+}
 .single-box:nth-child(2) .img-area {
-    background-image: url("~assets/icons/digital_icon.png");
-  }
+  background-image: url('~assets/icons/digital_icon.png');
+}
 .single-box:nth-child(3) .img-area {
-    background-image: url("~assets/icons/hr_icon.png");
-  }
+  background-image: url('~assets/icons/hr_icon.png');
+}
 
 .header-text {
   font-size: 3.2vh;
-  font-weight:600;
+  font-weight: 600;
   line-height: 48px;
 }
 .img-text {
   padding-top: 20px;
   text-align: center;
-
 }
-.img-text p{
+.img-text p {
   font-size: 15px;
   font-weight: 400;
   line-height: 30px;
@@ -546,5 +544,4 @@ background: linear-gradient(278deg, rgba(76,158,134,1) 0%, rgba(79,111,133,1) 36
 /* .single-box:hover{
   background:rgb(125, 207, 182);
 } */
-
-  </style>
+</style>
