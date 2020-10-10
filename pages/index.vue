@@ -63,7 +63,7 @@
     <section class="why-bg">
       <h1 data-aos="fade-up">“Personal trainers” for comprehensive digital solutions</h1>
       <ul class="" data-aos="fade-up-right" data-aos-duration="1000">
-        <li><span class="bold">Optimising all resources</span> for efficient operations</li>
+        <li><span class="bold">Optimising all resources</span> for efficient business operations</li>
         <li>Leading <span class="bold">business transformation</span> in the organization</li>
         <li>Enable <span class="bold">symbiosis</span> of sustainable business</li>
         <li>Providing <span class="bold">complete solutions</span> for Industry 4.0.</li>
