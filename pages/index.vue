@@ -97,17 +97,16 @@
           <div class="img-text">
             <span class="header-text"><strong>Digital Business Transformation</strong></span>
             <ul>
-              <li>PLM – Product or Service lifecycle management</li>
+              <li>BPM – Business Process Mapping</li>
+              <li>PLM – Product lifecycle management</li>
               <li>APM – Agile project management</li>
               <li>ERP – Enterprise resource planning</li>
               <li>SCM – Supply chain management</li>
               <li>CRM – Customer relationship management</li>
-              <li>HRM  - Human resources management</li>
               <li>CMM – Contract manufacturers management</li>
-              <li>BI – Business intelligence</li>
               <li>DMS – Data management system</li>
-              <li>DMP – Digital marketing platforms</li>
-              <li>SMM – Social media management</li>
+              <li>BI – Business intelligence</li>
+
             </ul>
           </div>
         </div>
@@ -117,13 +116,12 @@
           <div class="img-text">
             <span class="header-text"><strong>Custom Digital Solutions</strong></span>
             <ul>
-              <li>Business Analytics</li>
-              <li>UX/UI/Interaction Design</li>
-              <li>Information Architecture</li>
+              <li>Digital Marketing</li>
+              <li>Social Media Management</li>
+              <li>User experience Design</li>
               <li>Web Development</li>
               <li>Mobile App Development</li>
               <li>Digital Testing</li>
-              <li>Video marketing</li>
             </ul>
           </div>
         </div>
@@ -131,10 +129,10 @@
                 <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span style="padding-right: 1.5em;" class="header-text"><strong>Sustainable HR support</strong></span>
+            <span style="padding-right: 1.5em;" class="header-text"><strong>HR management</strong></span>
             <ul>
-              <li>Recruiting</li>
-              <li>Training and education system</li>
+              <li>Recruiting & onboarding</li>
+              <li>Training & learning management</li>
               <li>Employee development</li>
               <li>Talent acquisition & management</li>
               <li>Job descriptions</li>
@@ -151,13 +149,13 @@
     </section>
     <section class="project-section" data-aos="fade-up">
       <br>
-      <h1 class="title" style="color: white;">OUR PROJECTS</h1>
-      <CaseStudyCards/>
+      <!-- <h1 class="title" style="color: white;">OUR PROJECTS</h1>
+      <CaseStudyCards/> -->
       <!-- <OnionDiagram/> -->
       <br />
       <div class="footer-text">
         Linking Map<br />
-        Copyright 2020 | 040 899 409 | hello@linking-map.com
+        Copyright 2020 | 041 763 005 | hello@linking-map.com
       </div>
       <MareUXLogo />
     </section>
@@ -174,14 +172,14 @@
 import CreativeDivBox from '~/components/CreativeDivBox.vue'
 // import OnionDiagram from '~/components/OnionDiagram.vue'
 // import ContactForm from '~/components/ContactForm.vue'
-import CaseStudyCards from '~/components/CaseStudyCards.vue'
+// import CaseStudyCards from '~/components/CaseStudyCards.vue'
 import MareUXLogo from '~/components/MareUXLogo.vue'
 
 export default {
   components: {
     CreativeDivBox,
     // ContactForm,
-    CaseStudyCards,
+    // CaseStudyCards,
     MareUXLogo
   }
 }
@@ -382,7 +380,7 @@ li {
     background-position: 50% 4%;
   }
   .project-section {
-    height: 145vh !important;
+    height: 25vh !important;
   }
   .contact-form-section {
     height: 150vh !important;
@@ -442,7 +440,7 @@ path {
 }
 
 .project-section {
-  height: 130vh;
+  height: 20vh;
   background: linear-gradient(
     278deg,
     rgba(76, 158, 134, 1) 0%,
