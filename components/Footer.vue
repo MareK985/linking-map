@@ -4,9 +4,9 @@
          <div id="container">
                 <div id="cont">
                 <div class="footer_center">
-                    <h3 style="color: white; font-size: 1.8em; font-weight: 100; margin-top: 50px;">Hire us</h3>
-                    <div class="footer-text"> We are currently taking on new projects. Would you like to discuss yours?</div>
-                    <p style="color: white; font-size: 0.8rem; font-weight: 300; margin-left: 30px"> +386 40 899 409</p>
+                    <h3 style="color: white; font-size: 1.8em; font-weight: 100; margin-top: 50px;">{{ $t('footerPopUpTitle') }}</h3>
+                    <div class="footer-text">{{ $t("footerPopUp") }}</div>
+                    <p style="color: white; font-size: 0.8rem; font-weight: 300; margin-left: 30px"> +386 41 763 005</p>
                     <a href="https://www.linkedin.com/" target="_blank"><font-awesome-icon style="margin-left: 30px; margin-right: 10px;" :icon="['fab', 'linkedin-in']"/></a>
                     <a href="mailto:hello@linking-map.com" target="_blank"><font-awesome-icon :icon="['fas', 'envelope']"/></a>
 

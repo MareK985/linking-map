@@ -4,7 +4,7 @@
         <span></span>
         <span></span>
         <div class="content" data-aos="fade">
-            <h2 style="margin-bottom:0; font-size: 2.5em;">Leading digital solutions</h2>
+            <h2 style="margin-bottom:0; font-size: 2.5em;">{{ $t("header") }}</h2>
             <!-- <a href="/case-studies/expar-store" to="/case-studies/expar-store">OUR PROJECTS...</a> -->
         </div>
     </div>
@@ -21,6 +21,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h2 {
+font-family: Helvetica, sans-serif;
+font-weight: 300 !important;
 }
 .square {
   position: relative;

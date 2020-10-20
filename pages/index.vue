@@ -1,6 +1,7 @@
 <template>
   <div>
       <section class="hero">
+      <LangNavigation />
       <div class="hero-inner">
         <div class="wrapper">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -61,17 +62,17 @@
     </section>
     <!--WHY section-->
     <section class="why-bg">
-      <h1 data-aos="fade-up">“Personal trainers” for comprehensive digital solutions</h1>
+      <h1 data-aos="fade-up">{{ $t('mainStatement') }}</h1>
       <ul class="" data-aos="fade-up-right" data-aos-duration="1000">
-        <li><span class="bold">Optimising all resources</span> for efficient business operations</li>
-        <li>Leading <span class="bold">business transformation</span> in the organization</li>
-        <li>Enable <span class="bold">symbiosis</span> of sustainable business</li>
-        <li>Providing <span class="bold">complete solutions</span> for Industry 4.0.</li>
-        <li>Equipping organizations for safe <span class="bold">future-proof business</span></li>
+        <li><span class="bold">{{ $t('statement1Bold') }}</span> {{ $t('statement1') }}</li>
+        <li>{{ $t('statement2_1') }}<span class="bold">{{ $t('statement2Bold') }}</span>{{ $t('statement2_2') }}</li>
+        <li>{{ $t('statement3_1') }}<span class="bold">{{ $t('statement3Bold') }}</span>{{ $t('statement3_2') }}</li>
+        <li>{{ $t('statement4_1') }}<span class="bold">{{ $t('statement4Bold') }}</span>{{ $t('statement4_2') }}</li>
+        <li>{{ $t('statement5') }}<span class="bold">{{ $t('statement5Bold') }}</span></li>
       </ul>
       <br>
       <div class="state-box">
-              <div class="why" data-aos="fade-up">A group of highly dedicated professionals on a mission to support companies to cope with challanges of their business transformation.</div>
+              <div class="why" data-aos="fade-up">{{ $t('missionStatement') }}</div>
         <!-- <div class="statement">Combining digital technologies with the organizational and people changes is required to build a digital information-oriented culture which allows organizations to significantly <span>improve business performance</span> by:</div>
         <ul>
           <li data-aos="fade-right">Capture and use real-time data about Cx (customer experience) for <span class="okr-s">smarter sales interactions</span></li>
@@ -85,7 +86,7 @@
     </section>
     <!--SERVICE section-->
     <section data-aos="fade-up">
-      <h1 class="title">Our service</h1>
+      <h1 class="title">{{ $t('ourService') }}</h1>
       <br>
     </section>
     <!--WORKFLOW section-->
@@ -95,18 +96,17 @@
         <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span class="header-text"><strong>Digital Business Transformation</strong></span>
+            <span class="header-text"><strong>{{ $t('service1') }}</strong></span>
             <ul>
-              <li>BPM – Business Process Mapping</li>
-              <li>PLM – Product lifecycle management</li>
-              <li>APM – Agile project management</li>
-              <li>ERP – Enterprise resource planning</li>
-              <li>SCM – Supply chain management</li>
-              <li>CRM – Customer relationship management</li>
-              <li>CMM – Contract manufacturers management</li>
-              <li>DMS – Data management system</li>
-              <li>BI – Business intelligence</li>
-
+              <li>{{ $t('service1_1') }}</li>
+              <li>{{ $t('service1_2') }}</li>
+              <li>{{ $t('service1_3') }}</li>
+              <li>{{ $t('service1_4') }}</li>
+              <li>{{ $t('service1_5') }}</li>
+              <li>{{ $t('service1_6') }}</li>              
+              <li>{{ $t('service1_7') }}</li>
+              <li>{{ $t('service1_8') }}</li>
+              <li>{{ $t('service1_9') }}</li>
             </ul>
           </div>
         </div>
@@ -114,14 +114,14 @@
         <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span class="header-text"><strong>Custom Digital Solutions</strong></span>
+            <span class="header-text"><strong>{{ $t('service2') }}</strong></span>
             <ul>
-              <li>Digital Marketing</li>
-              <li>Social Media Management</li>
-              <li>User experience Design</li>
-              <li>Web Development</li>
-              <li>Mobile App Development</li>
-              <li>Digital Testing</li>
+              <li>{{ $t('service2_1') }}</li>
+              <li>{{ $t('service2_2') }}</li>
+              <li>{{ $t('service2_3') }}</li>
+              <li>{{ $t('service2_4') }}</li>
+              <li>{{ $t('service2_5') }}</li>
+              <li>{{ $t('service2_6') }}</li>
             </ul>
           </div>
         </div>
@@ -129,19 +129,16 @@
                 <div class="single-box" data-aos="zoom-in">
           <div class="img-area"></div>
           <div class="img-text">
-            <span style="padding-right: 1.5em;" class="header-text"><strong>HR management</strong></span>
+            <span style="padding-right: 1.5em;" class="header-text"><strong>{{ $t('service3') }}</strong></span>
             <ul>
-              <li>Recruiting & onboarding</li>
-              <li>Training & learning management</li>
-              <li>Employee development</li>
-              <li>Talent acquisition & management</li>
-              <li>Job descriptions</li>
-              <li>Outplacement</li>
-              <li>Employer branding</li>
-              <li>Organisational culture</li>
-              <li>Employee experience</li>
-              <li>Systematization</li>
-              <li>Corporate social responsibility</li>
+              <li>{{ $t('service3_1') }}</li>
+              <li>{{ $t('service3_2') }}</li>
+              <li>{{ $t('service3_3') }}</li>
+              <li>{{ $t('service3_4') }}</li>
+              <li>{{ $t('service3_5') }}</li>
+              <li>{{ $t('service3_6') }}</li>
+              <li>{{ $t('service3_7') }}</li>
+              <li>{{ $t('service3_8') }}</li>
             </ul>
           </div>
         </div>
@@ -155,7 +152,7 @@
       <br />
       <div class="footer-text">
         Linking Map<br />
-        Copyright 2020 | 041 763 005 | hello@linking-map.com
+        {{ $t('copyright') }} 2020 | 041 763 005 | hello@linking-map.com
       </div>
       <MareUXLogo />
     </section>
@@ -174,14 +171,23 @@ import CreativeDivBox from '~/components/CreativeDivBox.vue'
 // import ContactForm from '~/components/ContactForm.vue'
 // import CaseStudyCards from '~/components/CaseStudyCards.vue'
 import MareUXLogo from '~/components/MareUXLogo.vue'
+import LangNavigation from "~/components/LangNavigation.vue";
+
 
 export default {
   components: {
     CreativeDivBox,
+    LangNavigation,
     // ContactForm,
     // CaseStudyCards,
     MareUXLogo
-  }
+  },
+    nuxtI18n: {
+    paths: {
+      sl: "/",
+      en: "/",
+    },
+  },
 }
 </script>
 
@@ -196,6 +202,9 @@ body {
 .bold {
   font-size: 1.4em;
   font-weight: 600;
+}
+h1 {
+font-family: Helvetica, sans-serif;
 }
 .hero {
   /* Sizing */
