@@ -197,7 +197,7 @@ export default {
 body {
   margin: 0;
   padding: 0;
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
 }
 .bold {
   font-size: 1.4em;
