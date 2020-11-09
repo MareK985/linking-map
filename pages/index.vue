@@ -86,7 +86,7 @@
     </section>
     <!--SERVICE section-->
     <section data-aos="fade-up">
-      <h1 class="title">{{ $t('ourService') }}</h1>
+      <!-- <h1 class="title">{{ $t('ourService') }}</h1> -->
       <br>
     </section>
     <!--WORKFLOW section-->
@@ -151,8 +151,8 @@
       <!-- <OnionDiagram/> -->
       <br />
       <div class="footer-text">
-        Linking Map<br />
-        {{ $t('copyright') }} 2020 | 041 763 005 | hello@linking-map.com
+        HRIBERŠEK, tehnično svetovanje, Mitja Krajnc s.p.<br />
+        {{ $t('copyright') }} 2020 | 041 763 005 | info@linking-map.com
       </div>
       <MareUXLogo />
     </section>

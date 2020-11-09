@@ -44,7 +44,7 @@ export default {
   service3_7: "Razvoj blagovne znamke delodajalca",
   service3_8: "Družbena odgovornost podjetja",
   developedBy: "Oblikovanje & razvoj:",
-  footerPopUpTitle: "Zavihamo rokave!?",
+  footerPopUpTitle: "Zavihajmo rokave!?",
   footerPopUp: "Trenutno smo v lovu za novimi projekti. Bi želel razpravljali o svojem?",
   copyright: "Vse pravice pridržane",
 
