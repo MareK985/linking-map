@@ -104,9 +104,19 @@
               <li>{{ $t('service1_4') }}</li>
               <li>{{ $t('service1_5') }}</li>
               <li>{{ $t('service1_6') }}</li>              
-              <li>{{ $t('service1_7') }}</li>
-              <li>{{ $t('service1_8') }}</li>
-              <li>{{ $t('service1_9') }}</li>
+              <li>{{ $t('service1_7') }}
+                <ul>
+                  <li>{{ $t('service1_7_1') }}</li>
+                  <li>{{ $t('service1_7_2') }}</li>
+                  <li>{{ $t('service1_7_3') }}</li>
+                  <li>{{ $t('service1_7_4') }}</li>
+                  <li>{{ $t('service1_7_5') }}</li>
+                  <li>{{ $t('service1_7_6') }}</li>
+                  <li>{{ $t('service1_7_7') }}</li>
+                  <li>{{ $t('service1_7_8') }}</li>
+                  <li>{{ $t('service1_7_9') }}</li>
+                </ul>
+              </li>
             </ul>
           </div>
         </div>
@@ -122,6 +132,8 @@
               <li>{{ $t('service2_4') }}</li>
               <li>{{ $t('service2_5') }}</li>
               <li>{{ $t('service2_6') }}</li>
+              <li>{{ $t('service2_7') }}</li>
+              <li>{{ $t('service2_8') }}</li>
             </ul>
           </div>
         </div>
@@ -130,15 +142,32 @@
           <div class="img-area"></div>
           <div class="img-text">
             <span style="padding-right: 1.5em;" class="header-text"><strong>{{ $t('service3') }}</strong></span>
+            <p>{{ $t('service3_1') }}</p>
             <ul>
-              <li>{{ $t('service3_1') }}</li>
-              <li>{{ $t('service3_2') }}</li>
-              <li>{{ $t('service3_3') }}</li>
-              <li>{{ $t('service3_4') }}</li>
-              <li>{{ $t('service3_5') }}</li>
-              <li>{{ $t('service3_6') }}</li>
-              <li>{{ $t('service3_7') }}</li>
-              <li>{{ $t('service3_8') }}</li>
+              <li>{{ $t('service3_1_1') }}</li>
+              <li>{{ $t('service3_1_2') }}</li>
+              <li>{{ $t('service3_1_3') }}</li>
+              <li>{{ $t('service3_1_4') }}</li>
+            </ul>
+            <p>{{ $t('service3_2') }}</p>
+            <ul>
+              <li>{{ $t('service3_2_1') }}</li>
+              <li>{{ $t('service3_2_2') }}</li>
+              <li>{{ $t('service3_2_3') }}</li>
+              <li>{{ $t('service3_2_4') }}</li>
+            </ul>
+            <p>{{ $t('service3_3') }}</p>
+            <ul>
+              <li>{{ $t('service3_3_1') }}</li>
+              <li>{{ $t('service3_3_2') }}</li>
+              <li>{{ $t('service3_3_3') }}</li>
+              <li>{{ $t('service3_3_4') }}</li>
+            </ul>
+            <p>{{ $t('service3_4') }}</p>
+            <ul>
+              <li>{{ $t('service3_4_1') }}</li>
+              <li>{{ $t('service3_4_2') }}</li>
+              <li>{{ $t('service3_4_3') }}</li>
             </ul>
           </div>
         </div>
@@ -154,7 +183,7 @@
         HRIBERŠEK, tehnično svetovanje, Mitja Krajnc s.p.<br />
         {{ $t('copyright') }} 2020 | 041 763 005 | info@linking-map.com
       </div>
-      <MareUXLogo />
+      <!-- <MareUXLogo /> -->
     </section>
     <!-- <section class="contact-form-section">
       <!-- <div class="box-area"> -->
@@ -177,10 +206,10 @@ import LangNavigation from "~/components/LangNavigation.vue";
 export default {
   components: {
     CreativeDivBox,
-    LangNavigation,
+    LangNavigation
     // ContactForm,
     // CaseStudyCards,
-    MareUXLogo
+    // MareUXLogo
   },
     nuxtI18n: {
     paths: {
