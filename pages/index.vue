@@ -272,6 +272,12 @@ font-family: Helvetica, sans-serif;
   text-align: left;
 }
 
+.img-text p {
+  font-weight: 900 !important;
+  text-align: left;
+  margin-bottom: 0 !important;
+}
+
 .why-bg ul {
   /* Text styles */
   font-size: 1.5em;
