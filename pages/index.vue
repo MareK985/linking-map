@@ -173,6 +173,12 @@
         </div>
       </div>
     </section>
+	<section data-aos="fade-up">
+		<div class="projectTitle">
+			{{ $t('header') }}
+		</div>
+		<Projects />
+    </section>
     <section class="project-section" data-aos="fade-up">
       <br>
       <!-- <h1 class="title" style="color: white;">OUR PROJECTS</h1>
@@ -199,14 +205,16 @@ import CreativeDivBox from '~/components/CreativeDivBox.vue'
 // import OnionDiagram from '~/components/OnionDiagram.vue'
 // import ContactForm from '~/components/ContactForm.vue'
 // import CaseStudyCards from '~/components/CaseStudyCards.vue'
-import MareUXLogo from '~/components/MareUXLogo.vue'
+// import MareUXLogo from '~/components/MareUXLogo.vue'
 import LangNavigation from "~/components/LangNavigation.vue";
+import Projects from "~/components/Projects.vue";
 
 
 export default {
   components: {
     CreativeDivBox,
-    LangNavigation
+    LangNavigation,
+	Projects
     // ContactForm,
     // CaseStudyCards,
     // MareUXLogo
@@ -235,6 +243,11 @@ body {
 h1 {
 font-family: Helvetica, sans-serif;
 }
+.projectTitle {
+text-align: center;
+font-size: 4rem;
+}
+
 .hero {
   /* Sizing */
   width: 100vw;
@@ -411,6 +424,7 @@ li {
     font-size: 1.8em;
     margin: 3em 0.6em;
     letter-spacing: 0.02em;
+	text-align: left;
   }
   .statement {
     font-size: 1.4em;
@@ -437,6 +451,10 @@ li {
     padding: 0.6em;
     text-align: justify;
   }
+  .projectTitle {
+	margin-top: 3rem;
+	font-size: 2.5rem;
+}
 }
 
 @media screen and (max-width: 800px) {

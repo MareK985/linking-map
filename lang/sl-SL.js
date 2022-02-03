@@ -67,5 +67,5 @@ export default {
   footerPopUpTitle: "Zavihajmo rokave!?",
   footerPopUp: "Trenutno smo v lovu za novimi projekti. Bi želel razpravljali o svojem?",
   copyright: "Vse pravice pridržane",
-
+  exparSlogan: "Doživite več | expar"
 };

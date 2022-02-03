@@ -67,4 +67,5 @@ export default {
   footerPopUpTitle: "Hire us",
   footerPopUp: "We are currently taking on new projects. Would you like to discuss yours?",
   copyright: "Copyright",
+  exparSlogan: "Experience more | expar"
 };
