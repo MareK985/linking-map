@@ -64,7 +64,7 @@ font-weight: 300 !important;
   animation: animate 6s linear infinite;
 }
 .square:hover span:nth-child(1) {
-  background: rgba(125, 207, 182, 0.4);
+  background: rgba(90, 158, 142, 0.4);
   border: none;
 }
 .square span:nth-child(2) {
@@ -79,7 +79,7 @@ font-weight: 300 !important;
   animation: animate 4s linear infinite;
 }
 .square:hover span:nth-child(2) {
-  background: rgba(125, 207, 182, 0.4);
+  background: rgba(90, 158, 142, 0.4);
   border: none;
 }
 .square span:nth-child(3) {
@@ -94,7 +94,7 @@ font-weight: 300 !important;
   animation: animate2 10s linear infinite;
 }
 .square:hover span:nth-child(3) {
-  background: rgba(125, 207, 182, 0.4);
+  background: rgba(90, 158, 142, 0.4);
   border: none;
 }
 @keyframes animate {

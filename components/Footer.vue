@@ -24,6 +24,11 @@
 
 <style scoped>
 
+:root {
+	--primary: rgb(90, 158, 142);
+	--base: rgb(102, 102, 102);
+}
+
 body{
   font-weight:300;
   background-color:lightblue;
@@ -35,7 +40,7 @@ section{
 .footer #button{
     width:35px;
     height:35px;
-    border: rgb(125, 207, 182) 12px solid;
+    border: var(--primary) 12px solid;
     border-radius:35px;
     margin:0 auto;
     position:relative;
@@ -86,7 +91,7 @@ section{
     position:relative;
     top:0;
     left:0;
-    background: rgb(125, 207, 182);
+    background: var(--primary);
 }
 .footer #cont{
     position:relative;

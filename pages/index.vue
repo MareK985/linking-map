@@ -187,7 +187,7 @@
       <br />
       <div class="footer-text">
         HRIBERŠEK, tehnično svetovanje, Mitja Krajnc s.p.<br />
-        {{ $t('copyright') }} 2020 | 041 763 005 | info@linking-map.com
+        {{ $t('copyright') }} 2022 | 041 763 005 | info@linking-map.com
       </div>
       <!-- <MareUXLogo /> -->
     </section>
@@ -231,6 +231,11 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
 
+:root {
+	--primary: rgb(90, 158, 142);
+	--base: rgb(102, 102, 102);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -242,10 +247,14 @@ body {
 }
 h1 {
 font-family: Helvetica, sans-serif;
+color: var(--base);
+font-weight: 900;
 }
 .projectTitle {
 text-align: center;
 font-size: 4rem;
+color: var(--base);
+font-weight: 600;
 }
 
 .hero {
@@ -339,7 +348,7 @@ font-size: 4rem;
 }
 
 .card-hover:hover {
-  background: rgb(125, 207, 182);
+  background: var(--primary);
 }
 
 ul {
@@ -351,7 +360,7 @@ li {
 
 .okr-s {
   font-size: 1.5em;
-  color: grey;
+  color: var(--base);
   text-shadow: none;
   font-weight: 900;
 }
@@ -371,7 +380,7 @@ li {
 }
 
 .state-box {
-  background: rgb(125, 207, 182);
+  background: var(--primary);
   width: 80%;
   height: auto;
   /* padding: 2px; */
@@ -382,7 +391,7 @@ li {
 @media screen and (max-width: 600px) {
   .why-bg h1 {
     /* Text styles */
-    font-size: 1.8em;
+    font-size: 1.5em;
 
     /* Margins */
     margin-top: 1.8em;
@@ -505,9 +514,9 @@ path {
   height: 20vh;
   background: linear-gradient(
     278deg,
-    rgba(76, 158, 134, 1) 0%,
-    rgba(79, 111, 133, 1) 36%,
-    rgba(175, 255, 232, 1) 100%
+    rgba(90, 158, 142, 1) 0%,
+    rgba(54, 95, 85, 1) 36%,
+    rgba(102, 102, 102, 1) 100%
   );
 
   /* background: rgb(125, 207, 182);; */
